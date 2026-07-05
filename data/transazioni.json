@@ -1,0 +1,5413 @@
+[
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1778966767488,
+    "date": "16/05/2026, 23:26:07"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1778967259421,
+    "date": "16/05/2026, 23:34:19"
+  },
+  {
+    "jid": "393516523417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1778970243769,
+    "date": "17/05/2026, 00:24:03"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779026030679,
+    "date": "17/05/2026, 15:53:50"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779026327831,
+    "date": "17/05/2026, 15:58:47"
+  },
+  {
+    "jid": "393283121989@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779032135810,
+    "date": "17/05/2026, 17:35:35"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779032151170,
+    "date": "17/05/2026, 17:35:51"
+  },
+  {
+    "jid": "393516523417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779035830757,
+    "date": "17/05/2026, 18:37:10"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779036013339,
+    "date": "17/05/2026, 18:40:13"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779036027892,
+    "date": "17/05/2026, 18:40:27"
+  },
+  {
+    "jid": "393312272316@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779036856105,
+    "date": "17/05/2026, 18:54:16"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779037186219,
+    "date": "17/05/2026, 18:59:46"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779038571887,
+    "date": "17/05/2026, 19:22:51"
+  },
+  {
+    "jid": "393312272316@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779041650416,
+    "date": "17/05/2026, 20:14:10"
+  },
+  {
+    "jid": "393283121989@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779041819624,
+    "date": "17/05/2026, 20:16:59"
+  },
+  {
+    "jid": "393793683967@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779041826936,
+    "date": "17/05/2026, 20:17:06"
+  },
+  {
+    "jid": "393519559170@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779042188317,
+    "date": "17/05/2026, 20:23:08"
+  },
+  {
+    "jid": "34665147427@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779042487558,
+    "date": "17/05/2026, 20:28:07"
+  },
+  {
+    "jid": "393513003430@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779043323746,
+    "date": "17/05/2026, 20:42:03"
+  },
+  {
+    "jid": "393516612216@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779045915078,
+    "date": "17/05/2026, 21:25:15"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779050976234,
+    "date": "17/05/2026, 22:49:36"
+  },
+  {
+    "jid": "393516612216@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779051300245,
+    "date": "17/05/2026, 22:55:00"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779056850628,
+    "date": "18/05/2026, 00:27:30"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779089600205,
+    "date": "18/05/2026, 09:33:20"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779108112256,
+    "date": "18/05/2026, 14:41:52"
+  },
+  {
+    "jid": "393516612216@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779108214077,
+    "date": "18/05/2026, 14:43:34"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779120172389,
+    "date": "18/05/2026, 18:02:52"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779125002708,
+    "date": "18/05/2026, 19:23:22"
+  },
+  {
+    "jid": "447346983709@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779125844863,
+    "date": "18/05/2026, 19:37:24"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779127376644,
+    "date": "18/05/2026, 20:02:56"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779129393289,
+    "date": "18/05/2026, 20:36:33"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779130096151,
+    "date": "18/05/2026, 20:48:16"
+  },
+  {
+    "jid": "22662838564@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779132293738,
+    "date": "18/05/2026, 21:24:53"
+  },
+  {
+    "jid": "237670480286@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779134220848,
+    "date": "18/05/2026, 21:57:00"
+  },
+  {
+    "jid": "22662838564@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779135425884,
+    "date": "18/05/2026, 22:17:05"
+  },
+  {
+    "jid": "237670480286@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779136107519,
+    "date": "18/05/2026, 22:28:27"
+  },
+  {
+    "jid": "237670480286@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779137949904,
+    "date": "18/05/2026, 22:59:09"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779138457567,
+    "date": "18/05/2026, 23:07:37"
+  },
+  {
+    "jid": "212786967209@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779139414356,
+    "date": "18/05/2026, 23:23:34"
+  },
+  {
+    "jid": "237670480286@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779139585941,
+    "date": "18/05/2026, 23:26:25"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779178513753,
+    "date": "19/05/2026, 10:15:13"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779187787648,
+    "date": "19/05/2026, 12:49:47"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779195860611,
+    "date": "19/05/2026, 15:04:20"
+  },
+  {
+    "jid": "393517461648@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779196150632,
+    "date": "19/05/2026, 15:09:10"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779199533661,
+    "date": "19/05/2026, 16:05:33"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779199975870,
+    "date": "19/05/2026, 16:12:55"
+  },
+  {
+    "jid": "447781519250@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779201809896,
+    "date": "19/05/2026, 16:43:29"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779202867726,
+    "date": "19/05/2026, 17:01:07"
+  },
+  {
+    "jid": "393279311289@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779205164634,
+    "date": "19/05/2026, 17:39:24"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779206683375,
+    "date": "19/05/2026, 18:04:43"
+  },
+  {
+    "jid": "393792397685@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779208692512,
+    "date": "19/05/2026, 18:38:12"
+  },
+  {
+    "jid": "393312272316@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779209352583,
+    "date": "19/05/2026, 18:49:12"
+  },
+  {
+    "jid": "447781519250@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779209513747,
+    "date": "19/05/2026, 18:51:53"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779209808579,
+    "date": "19/05/2026, 18:56:48"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779215362636,
+    "date": "19/05/2026, 20:29:22"
+  },
+  {
+    "jid": "393516523417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779215715081,
+    "date": "19/05/2026, 20:35:15"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779215967368,
+    "date": "19/05/2026, 20:39:27"
+  },
+  {
+    "jid": "393279311289@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779216311203,
+    "date": "19/05/2026, 20:45:11"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779219326792,
+    "date": "19/05/2026, 21:35:26"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779219553655,
+    "date": "19/05/2026, 21:39:13"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779219671321,
+    "date": "19/05/2026, 21:41:11"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779227612320,
+    "date": "19/05/2026, 23:53:32"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779227682600,
+    "date": "19/05/2026, 23:54:42"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779228717684,
+    "date": "20/05/2026, 00:11:57"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779254885410,
+    "date": "20/05/2026, 07:28:05"
+  },
+  {
+    "jid": "393274298922@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779262257620,
+    "date": "20/05/2026, 09:30:57"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779287616024,
+    "date": "20/05/2026, 16:33:36"
+  },
+  {
+    "jid": "393759015874@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779288241396,
+    "date": "20/05/2026, 16:44:01"
+  },
+  {
+    "jid": "393513929554@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779288302145,
+    "date": "20/05/2026, 16:45:02"
+  },
+  {
+    "jid": "447781519250@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779292372404,
+    "date": "20/05/2026, 17:52:52"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779293985543,
+    "date": "20/05/2026, 18:19:45"
+  },
+  {
+    "jid": "393792397685@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779298553610,
+    "date": "20/05/2026, 19:35:53"
+  },
+  {
+    "jid": "393513104378@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779298877164,
+    "date": "20/05/2026, 19:41:17"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779300747763,
+    "date": "20/05/2026, 20:12:27"
+  },
+  {
+    "jid": "393513423951@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779300937596,
+    "date": "20/05/2026, 20:15:37"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779308863671,
+    "date": "20/05/2026, 22:27:43"
+  },
+  {
+    "jid": "393517461648@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779312797814,
+    "date": "20/05/2026, 23:33:17"
+  },
+  {
+    "jid": "393792397685@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779342172665,
+    "date": "21/05/2026, 07:42:52"
+  },
+  {
+    "jid": "393274298922@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779353940047,
+    "date": "21/05/2026, 10:59:00"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779356155599,
+    "date": "21/05/2026, 11:35:55"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779368827893,
+    "date": "21/05/2026, 15:07:07"
+  },
+  {
+    "jid": "393780879794@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779375107226,
+    "date": "21/05/2026, 16:51:47"
+  },
+  {
+    "jid": "393515089101@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779375506650,
+    "date": "21/05/2026, 16:58:26"
+  },
+  {
+    "jid": "393759015874@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779375881437,
+    "date": "21/05/2026, 17:04:41"
+  },
+  {
+    "jid": "393513104378@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779380298705,
+    "date": "21/05/2026, 18:18:18"
+  },
+  {
+    "jid": "393513929554@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779380360754,
+    "date": "21/05/2026, 18:19:20"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779384649834,
+    "date": "21/05/2026, 19:30:49"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779385264173,
+    "date": "21/05/2026, 19:41:04"
+  },
+  {
+    "jid": "393759015874@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779385617590,
+    "date": "21/05/2026, 19:46:57"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779386367091,
+    "date": "21/05/2026, 19:59:27"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779386476732,
+    "date": "21/05/2026, 20:01:16"
+  },
+  {
+    "jid": "393792397685@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779386654453,
+    "date": "21/05/2026, 20:04:14"
+  },
+  {
+    "jid": "393520931386@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779386749176,
+    "date": "21/05/2026, 20:05:49"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779386782131,
+    "date": "21/05/2026, 20:06:22"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779388611187,
+    "date": "21/05/2026, 20:36:51"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779389847229,
+    "date": "21/05/2026, 20:57:27"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779390438447,
+    "date": "21/05/2026, 21:07:18"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779390677032,
+    "date": "21/05/2026, 21:11:17"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779390727504,
+    "date": "21/05/2026, 21:12:07"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779392699760,
+    "date": "21/05/2026, 21:44:59"
+  },
+  {
+    "jid": "393279311289@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779392752122,
+    "date": "21/05/2026, 21:45:52"
+  },
+  {
+    "jid": "393515089101@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779395571993,
+    "date": "21/05/2026, 22:32:51"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779395682198,
+    "date": "21/05/2026, 22:34:42"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779395873644,
+    "date": "21/05/2026, 22:37:53"
+  },
+  {
+    "jid": "393780879794@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779396094035,
+    "date": "21/05/2026, 22:41:34"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779398136759,
+    "date": "21/05/2026, 23:15:36"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779398886722,
+    "date": "21/05/2026, 23:28:06"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779441785158,
+    "date": "22/05/2026, 11:23:05"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779450251938,
+    "date": "22/05/2026, 13:44:11"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779452365553,
+    "date": "22/05/2026, 14:19:25"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779452797730,
+    "date": "22/05/2026, 14:26:37"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779454521858,
+    "date": "22/05/2026, 14:55:21"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779465831159,
+    "date": "22/05/2026, 18:03:51"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779466348405,
+    "date": "22/05/2026, 18:12:28"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779466844575,
+    "date": "22/05/2026, 18:20:44"
+  },
+  {
+    "jid": "393206888821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779466904692,
+    "date": "22/05/2026, 18:21:44"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779467978029,
+    "date": "22/05/2026, 18:39:38"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779468465964,
+    "date": "22/05/2026, 18:47:45"
+  },
+  {
+    "jid": "393391127530@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779468964006,
+    "date": "22/05/2026, 18:56:04"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779471075262,
+    "date": "22/05/2026, 19:31:15"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779474347999,
+    "date": "22/05/2026, 20:25:47"
+  },
+  {
+    "jid": "393513104378@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779475570821,
+    "date": "22/05/2026, 20:46:10"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779476034133,
+    "date": "22/05/2026, 20:53:54"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779477083922,
+    "date": "22/05/2026, 21:11:23"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779478223852,
+    "date": "22/05/2026, 21:30:23"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779479561089,
+    "date": "22/05/2026, 21:52:41"
+  },
+  {
+    "jid": "393516612216@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779480903253,
+    "date": "22/05/2026, 22:15:03"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779481874369,
+    "date": "22/05/2026, 22:31:14"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779524833028,
+    "date": "23/05/2026, 10:27:13"
+  },
+  {
+    "jid": "393515089101@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779528232367,
+    "date": "23/05/2026, 11:23:52"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779530371736,
+    "date": "23/05/2026, 11:59:31"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779532111945,
+    "date": "23/05/2026, 12:28:31"
+  },
+  {
+    "jid": "393517461648@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779532291415,
+    "date": "23/05/2026, 12:31:31"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779537095398,
+    "date": "23/05/2026, 13:51:35"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779548999656,
+    "date": "23/05/2026, 17:09:59"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779550332845,
+    "date": "23/05/2026, 17:32:12"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779554884145,
+    "date": "23/05/2026, 18:48:04"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779564487805,
+    "date": "23/05/2026, 21:28:07"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779566500482,
+    "date": "23/05/2026, 22:01:40"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779566624753,
+    "date": "23/05/2026, 22:03:44"
+  },
+  {
+    "jid": "393791401337@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779567664126,
+    "date": "23/05/2026, 22:21:04"
+  },
+  {
+    "jid": "77787623522@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779568063889,
+    "date": "23/05/2026, 22:27:43"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779568347778,
+    "date": "23/05/2026, 22:32:27"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779568642241,
+    "date": "23/05/2026, 22:37:22"
+  },
+  {
+    "jid": "393516612216@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779568719619,
+    "date": "23/05/2026, 22:38:39"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779578009236,
+    "date": "24/05/2026, 01:13:29"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779607839059,
+    "date": "24/05/2026, 09:30:39"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779607839060,
+    "date": "24/05/2026, 09:30:39"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779607839061,
+    "date": "24/05/2026, 09:30:39"
+  },
+  {
+    "jid": "393513104378@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779613345444,
+    "date": "24/05/2026, 11:02:25"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779613806603,
+    "date": "24/05/2026, 11:10:06"
+  },
+  {
+    "jid": "393513929554@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779614140928,
+    "date": "24/05/2026, 11:15:40"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779614666174,
+    "date": "24/05/2026, 11:24:26"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779615141026,
+    "date": "24/05/2026, 11:32:21"
+  },
+  {
+    "jid": "77787623522@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779616390344,
+    "date": "24/05/2026, 11:53:10"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779617179041,
+    "date": "24/05/2026, 12:06:19"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779618157389,
+    "date": "24/05/2026, 12:22:37"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779618585277,
+    "date": "24/05/2026, 12:29:45"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779618725349,
+    "date": "24/05/2026, 12:32:05"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779622760966,
+    "date": "24/05/2026, 13:39:20"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779622863539,
+    "date": "24/05/2026, 13:41:03"
+  },
+  {
+    "jid": "393513423951@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779624281252,
+    "date": "24/05/2026, 14:04:41"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779624306717,
+    "date": "24/05/2026, 14:05:06"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779625006889,
+    "date": "24/05/2026, 14:16:46"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779626589310,
+    "date": "24/05/2026, 14:43:09"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779627011203,
+    "date": "24/05/2026, 14:50:11"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779627908739,
+    "date": "24/05/2026, 15:05:08"
+  },
+  {
+    "jid": "393895449469@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779628800687,
+    "date": "24/05/2026, 15:20:00"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779630366869,
+    "date": "24/05/2026, 15:46:06"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779637807324,
+    "date": "24/05/2026, 17:50:07"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779640213651,
+    "date": "24/05/2026, 18:30:13"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779641170713,
+    "date": "24/05/2026, 18:46:10"
+  },
+  {
+    "jid": "393513104378@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779641348081,
+    "date": "24/05/2026, 18:49:08"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779641383638,
+    "date": "24/05/2026, 18:49:43"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779641408975,
+    "date": "24/05/2026, 18:50:08"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779643219652,
+    "date": "24/05/2026, 19:20:19"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779643468268,
+    "date": "24/05/2026, 19:24:28"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779643821705,
+    "date": "24/05/2026, 19:30:21"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779653841913,
+    "date": "24/05/2026, 22:17:21"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779655195764,
+    "date": "24/05/2026, 22:39:55"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779655218251,
+    "date": "24/05/2026, 22:40:18"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779655893870,
+    "date": "24/05/2026, 22:51:33"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779656673440,
+    "date": "24/05/2026, 23:04:33"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779656788580,
+    "date": "24/05/2026, 23:06:28"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779706139793,
+    "date": "25/05/2026, 12:48:59"
+  },
+  {
+    "jid": "77787623522@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779712113980,
+    "date": "25/05/2026, 14:28:33"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779732468514,
+    "date": "25/05/2026, 20:07:48"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779736563752,
+    "date": "25/05/2026, 21:16:03"
+  },
+  {
+    "jid": "212774371019@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779738980901,
+    "date": "25/05/2026, 21:56:20"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779739544663,
+    "date": "25/05/2026, 22:05:44"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779740738095,
+    "date": "25/05/2026, 22:25:38"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779740738097,
+    "date": "25/05/2026, 22:25:38"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779741252383,
+    "date": "25/05/2026, 22:34:12"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779742443948,
+    "date": "25/05/2026, 22:54:03"
+  },
+  {
+    "jid": "212786967209@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779809698594,
+    "date": "26/05/2026, 17:34:58"
+  },
+  {
+    "jid": "393204572728@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779815799931,
+    "date": "26/05/2026, 19:16:39"
+  },
+  {
+    "jid": "393391127530@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779821176680,
+    "date": "26/05/2026, 20:46:16"
+  },
+  {
+    "jid": "393520931386@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779830861623,
+    "date": "26/05/2026, 23:27:41"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779976499515,
+    "date": "28/05/2026, 15:54:59"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779984322487,
+    "date": "28/05/2026, 18:05:22"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1779986558113,
+    "date": "28/05/2026, 18:42:38"
+  },
+  {
+    "jid": "16092810566@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780045598514,
+    "date": "29/05/2026, 11:06:38"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780055698139,
+    "date": "29/05/2026, 13:54:58"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780078937091,
+    "date": "29/05/2026, 20:22:17"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780094552455,
+    "date": "30/05/2026, 00:42:32"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780094917732,
+    "date": "30/05/2026, 00:48:37"
+  },
+  {
+    "jid": "573217871395@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780142192650,
+    "date": "30/05/2026, 13:56:32"
+  },
+  {
+    "jid": "573217871395@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780143224031,
+    "date": "30/05/2026, 14:13:44"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780143232436,
+    "date": "30/05/2026, 14:13:52"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780156051143,
+    "date": "30/05/2026, 17:47:31"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780162921057,
+    "date": "30/05/2026, 19:42:01"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780168666704,
+    "date": "30/05/2026, 21:17:46"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780171231226,
+    "date": "30/05/2026, 22:00:31"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780171909783,
+    "date": "30/05/2026, 22:11:49"
+  },
+  {
+    "jid": "573217871395@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780178433354,
+    "date": "31/05/2026, 00:00:33"
+  },
+  {
+    "jid": "393934330861@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780181664277,
+    "date": "31/05/2026, 00:54:24"
+  },
+  {
+    "jid": "393501989497@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780224991135,
+    "date": "31/05/2026, 12:56:31"
+  },
+  {
+    "jid": "573238070821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780244812316,
+    "date": "31/05/2026, 18:26:52"
+  },
+  {
+    "jid": "573238070821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780250921923,
+    "date": "31/05/2026, 20:08:41"
+  },
+  {
+    "jid": "573217871395@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780270831859,
+    "date": "01/06/2026, 01:40:31"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780304196936,
+    "date": "01/06/2026, 10:56:36"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780304425836,
+    "date": "01/06/2026, 11:00:25"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780313130123,
+    "date": "01/06/2026, 13:25:30"
+  },
+  {
+    "jid": "584167240184@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780324828622,
+    "date": "01/06/2026, 16:40:28"
+  },
+  {
+    "jid": "447346983709@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780345302368,
+    "date": "01/06/2026, 22:21:42"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780345460007,
+    "date": "01/06/2026, 22:24:20"
+  },
+  {
+    "jid": "573238070821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780345645615,
+    "date": "01/06/2026, 22:27:25"
+  },
+  {
+    "jid": "212781899658@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780346283212,
+    "date": "01/06/2026, 22:38:03"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780347436155,
+    "date": "01/06/2026, 22:57:16"
+  },
+  {
+    "jid": "584167240184@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780347862320,
+    "date": "01/06/2026, 23:04:22"
+  },
+  {
+    "jid": "967738490544@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780348912067,
+    "date": "01/06/2026, 23:21:52"
+  },
+  {
+    "jid": "48726875208@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780349832823,
+    "date": "01/06/2026, 23:37:12"
+  },
+  {
+    "jid": "67077921431@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780377186552,
+    "date": "02/06/2026, 07:13:06"
+  },
+  {
+    "jid": "16092810566@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780389060752,
+    "date": "02/06/2026, 10:31:00"
+  },
+  {
+    "jid": "6282379607112@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780391318482,
+    "date": "02/06/2026, 11:08:38"
+  },
+  {
+    "jid": "573238070821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780391372321,
+    "date": "02/06/2026, 11:09:32"
+  },
+  {
+    "jid": "393770915711@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780391899967,
+    "date": "02/06/2026, 11:18:19"
+  },
+  {
+    "jid": "573238070821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780392672664,
+    "date": "02/06/2026, 11:31:12"
+  },
+  {
+    "jid": "19099091023@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780394677297,
+    "date": "02/06/2026, 12:04:37"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780394905060,
+    "date": "02/06/2026, 12:08:25"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780405206023,
+    "date": "02/06/2026, 15:00:06"
+  },
+  {
+    "jid": "584167240184@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780411591696,
+    "date": "02/06/2026, 16:46:31"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780423155122,
+    "date": "02/06/2026, 19:59:15"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780424326522,
+    "date": "02/06/2026, 20:18:46"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780425497790,
+    "date": "02/06/2026, 20:38:17"
+  },
+  {
+    "jid": "639368246543@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780425504630,
+    "date": "02/06/2026, 20:38:24"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780426488175,
+    "date": "02/06/2026, 20:54:48"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780430716454,
+    "date": "02/06/2026, 22:05:16"
+  },
+  {
+    "jid": "573161131306@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780433193928,
+    "date": "02/06/2026, 22:46:33"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780435502687,
+    "date": "02/06/2026, 23:25:02"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780435820476,
+    "date": "02/06/2026, 23:30:20"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780437861502,
+    "date": "03/06/2026, 00:04:21"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780474920935,
+    "date": "03/06/2026, 10:22:00"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780475590717,
+    "date": "03/06/2026, 10:33:10"
+  },
+  {
+    "jid": "393791268527@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780479292028,
+    "date": "03/06/2026, 11:34:52"
+  },
+  {
+    "jid": "393508005402@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780491938689,
+    "date": "03/06/2026, 15:05:38"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780497257742,
+    "date": "03/06/2026, 16:34:17"
+  },
+  {
+    "jid": "393279399297@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780502458370,
+    "date": "03/06/2026, 18:00:58"
+  },
+  {
+    "jid": "393508496779@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780518472353,
+    "date": "03/06/2026, 22:27:52"
+  },
+  {
+    "jid": "393513104378@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780520833382,
+    "date": "03/06/2026, 23:07:13"
+  },
+  {
+    "jid": "393792098187@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780548062092,
+    "date": "04/06/2026, 06:41:02"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780567977116,
+    "date": "04/06/2026, 12:12:57"
+  },
+  {
+    "jid": "447407616972@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780571771219,
+    "date": "04/06/2026, 13:16:11"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780576966625,
+    "date": "04/06/2026, 14:42:46"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780583890060,
+    "date": "04/06/2026, 16:38:10"
+  },
+  {
+    "jid": "393791268527@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780587048580,
+    "date": "04/06/2026, 17:30:48"
+  },
+  {
+    "jid": "393895449469@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780587156386,
+    "date": "04/06/2026, 17:32:36"
+  },
+  {
+    "jid": "996708121031@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780591791268,
+    "date": "04/06/2026, 18:49:51"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780596044971,
+    "date": "04/06/2026, 20:00:44"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780597507993,
+    "date": "04/06/2026, 20:25:07"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780597834096,
+    "date": "04/06/2026, 20:30:34"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780598061801,
+    "date": "04/06/2026, 20:34:21"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780598248142,
+    "date": "04/06/2026, 20:37:28"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780656990049,
+    "date": "05/06/2026, 12:56:30"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780657765299,
+    "date": "05/06/2026, 13:09:25"
+  },
+  {
+    "jid": "447781507564@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780658841784,
+    "date": "05/06/2026, 13:27:21"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780658905963,
+    "date": "05/06/2026, 13:28:25"
+  },
+  {
+    "jid": "393793683967@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780659032159,
+    "date": "05/06/2026, 13:30:32"
+  },
+  {
+    "jid": "959661407756@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780660764761,
+    "date": "05/06/2026, 13:59:24"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780660788416,
+    "date": "05/06/2026, 13:59:48"
+  },
+  {
+    "jid": "447781507564@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780660790306,
+    "date": "05/06/2026, 13:59:50"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780661219683,
+    "date": "05/06/2026, 14:06:59"
+  },
+  {
+    "jid": "19098189100@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780669534363,
+    "date": "05/06/2026, 16:25:34"
+  },
+  {
+    "jid": "393533077506@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780682235338,
+    "date": "05/06/2026, 19:57:15"
+  },
+  {
+    "jid": "573161131306@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780688055729,
+    "date": "05/06/2026, 21:34:15"
+  },
+  {
+    "jid": "19098189100@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780688496626,
+    "date": "05/06/2026, 21:41:36"
+  },
+  {
+    "jid": "19098189100@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780689206854,
+    "date": "05/06/2026, 21:53:26"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780718263406,
+    "date": "06/06/2026, 05:57:43"
+  },
+  {
+    "jid": "393792098187@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780736757323,
+    "date": "06/06/2026, 11:05:57"
+  },
+  {
+    "jid": "447781506651@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780750543903,
+    "date": "06/06/2026, 14:55:43"
+  },
+  {
+    "jid": "393481910520@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780761925870,
+    "date": "06/06/2026, 18:05:25"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780772782218,
+    "date": "06/06/2026, 21:06:22"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780788265210,
+    "date": "07/06/2026, 01:24:25"
+  },
+  {
+    "jid": "9647839289351@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780791733629,
+    "date": "07/06/2026, 02:22:13"
+  },
+  {
+    "jid": "77787623522@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780792303526,
+    "date": "07/06/2026, 02:31:43"
+  },
+  {
+    "jid": "9647839289351@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780797421448,
+    "date": "07/06/2026, 03:57:01"
+  },
+  {
+    "jid": "212781906628@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780797818028,
+    "date": "07/06/2026, 04:03:38"
+  },
+  {
+    "jid": "212621105269@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780818314436,
+    "date": "07/06/2026, 09:45:14"
+  },
+  {
+    "jid": "14509135625@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780818724384,
+    "date": "07/06/2026, 09:52:04"
+  },
+  {
+    "jid": "393508496779@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780819193075,
+    "date": "07/06/2026, 09:59:53"
+  },
+  {
+    "jid": "212781899658@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780819529702,
+    "date": "07/06/2026, 10:05:29"
+  },
+  {
+    "jid": "67077921431@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780820308336,
+    "date": "07/06/2026, 10:18:28"
+  },
+  {
+    "jid": "12895594959@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780820567953,
+    "date": "07/06/2026, 10:22:47"
+  },
+  {
+    "jid": "79026737620@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780820618556,
+    "date": "07/06/2026, 10:23:38"
+  },
+  {
+    "jid": "639350468907@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780821825373,
+    "date": "07/06/2026, 10:43:45"
+  },
+  {
+    "jid": "79026737620@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780822419763,
+    "date": "07/06/2026, 10:53:39"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780832254605,
+    "date": "07/06/2026, 13:37:34"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780832358743,
+    "date": "07/06/2026, 13:39:18"
+  },
+  {
+    "jid": "56949570572@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780832630830,
+    "date": "07/06/2026, 13:43:50"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780837805436,
+    "date": "07/06/2026, 15:10:05"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780838907905,
+    "date": "07/06/2026, 15:28:27"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780839252909,
+    "date": "07/06/2026, 15:34:12"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780840546698,
+    "date": "07/06/2026, 15:55:46"
+  },
+  {
+    "jid": "56949570572@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780840705628,
+    "date": "07/06/2026, 15:58:25"
+  },
+  {
+    "jid": "67077921431@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841256443,
+    "date": "07/06/2026, 16:07:36"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841267175,
+    "date": "07/06/2026, 16:07:47"
+  },
+  {
+    "jid": "212621105269@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841313966,
+    "date": "07/06/2026, 16:08:33"
+  },
+  {
+    "jid": "12895594959@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841458654,
+    "date": "07/06/2026, 16:10:58"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841459430,
+    "date": "07/06/2026, 16:10:59"
+  },
+  {
+    "jid": "79026737620@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841742442,
+    "date": "07/06/2026, 16:15:42"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841758495,
+    "date": "07/06/2026, 16:15:58"
+  },
+  {
+    "jid": "212781899658@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780841826521,
+    "date": "07/06/2026, 16:17:06"
+  },
+  {
+    "jid": "212631451834@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780842329830,
+    "date": "07/06/2026, 16:25:29"
+  },
+  {
+    "jid": "212785662207@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780842349078,
+    "date": "07/06/2026, 16:25:49"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780842620103,
+    "date": "07/06/2026, 16:30:20"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780843553462,
+    "date": "07/06/2026, 16:45:53"
+  },
+  {
+    "jid": "33623333451@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780843578641,
+    "date": "07/06/2026, 16:46:18"
+  },
+  {
+    "jid": "56949570572@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780843711773,
+    "date": "07/06/2026, 16:48:31"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780843790195,
+    "date": "07/06/2026, 16:49:50"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780845871642,
+    "date": "07/06/2026, 17:24:31"
+  },
+  {
+    "jid": "639483113988@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780845873657,
+    "date": "07/06/2026, 17:24:33"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780846679554,
+    "date": "07/06/2026, 17:37:59"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780848685143,
+    "date": "07/06/2026, 18:11:25"
+  },
+  {
+    "jid": "12895594959@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780850063510,
+    "date": "07/06/2026, 18:34:23"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780850108893,
+    "date": "07/06/2026, 18:35:08"
+  },
+  {
+    "jid": "33623333451@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780850655149,
+    "date": "07/06/2026, 18:44:15"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780851265629,
+    "date": "07/06/2026, 18:54:25"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780852579806,
+    "date": "07/06/2026, 19:16:19"
+  },
+  {
+    "jid": "56949570572@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780854144702,
+    "date": "07/06/2026, 19:42:24"
+  },
+  {
+    "jid": "393275936479@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780856459696,
+    "date": "07/06/2026, 20:20:59"
+  },
+  {
+    "jid": "77787623522@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780857066639,
+    "date": "07/06/2026, 20:31:06"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780857506887,
+    "date": "07/06/2026, 20:38:26"
+  },
+  {
+    "jid": "56949570572@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780859435973,
+    "date": "07/06/2026, 21:10:35"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780863125634,
+    "date": "07/06/2026, 22:12:05"
+  },
+  {
+    "jid": "56949570572@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780863805227,
+    "date": "07/06/2026, 22:23:25"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780870867254,
+    "date": "08/06/2026, 00:21:07"
+  },
+  {
+    "jid": "393519979611@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780871101588,
+    "date": "08/06/2026, 00:25:01"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780871120262,
+    "date": "08/06/2026, 00:25:20"
+  },
+  {
+    "jid": "8562050917207@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780871193425,
+    "date": "08/06/2026, 00:26:33"
+  },
+  {
+    "jid": "79524932401@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780871233392,
+    "date": "08/06/2026, 00:27:13"
+  },
+  {
+    "jid": "212787089409@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780871551419,
+    "date": "08/06/2026, 00:32:31"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780872305753,
+    "date": "08/06/2026, 00:45:05"
+  },
+  {
+    "jid": "33623333451@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780873900042,
+    "date": "08/06/2026, 01:11:40"
+  },
+  {
+    "jid": "212786967209@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780876702946,
+    "date": "08/06/2026, 01:58:22"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780881845561,
+    "date": "08/06/2026, 03:24:05"
+  },
+  {
+    "jid": "27687930685@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780904298607,
+    "date": "08/06/2026, 09:38:18"
+  },
+  {
+    "jid": "393792098187@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780910780160,
+    "date": "08/06/2026, 11:26:20"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780913382461,
+    "date": "08/06/2026, 12:09:42"
+  },
+  {
+    "jid": "212781899658@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780914482671,
+    "date": "08/06/2026, 12:28:02"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780916549083,
+    "date": "08/06/2026, 13:02:29"
+  },
+  {
+    "jid": "38630541659@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780930965084,
+    "date": "08/06/2026, 17:02:45"
+  },
+  {
+    "jid": "639757505906@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780931789535,
+    "date": "08/06/2026, 17:16:29"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780937220612,
+    "date": "08/06/2026, 18:47:00"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780937820991,
+    "date": "08/06/2026, 18:57:00"
+  },
+  {
+    "jid": "79524932401@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780951452207,
+    "date": "08/06/2026, 22:44:12"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780952652615,
+    "date": "08/06/2026, 23:04:12"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780952786294,
+    "date": "08/06/2026, 23:06:26"
+  },
+  {
+    "jid": "393508853853@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780952794162,
+    "date": "08/06/2026, 23:06:34"
+  },
+  {
+    "jid": "14509135625@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1780953270601,
+    "date": "08/06/2026, 23:14:30"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781005326512,
+    "date": "09/06/2026, 13:42:06"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781011758651,
+    "date": "09/06/2026, 15:29:18"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781016760099,
+    "date": "09/06/2026, 16:52:40"
+  },
+  {
+    "jid": "393929686500@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781088454498,
+    "date": "10/06/2026, 12:47:34"
+  },
+  {
+    "jid": "33775244672@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781092500263,
+    "date": "10/06/2026, 13:55:00"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781108895556,
+    "date": "10/06/2026, 18:28:15"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781120186516,
+    "date": "10/06/2026, 21:36:26"
+  },
+  {
+    "jid": "393445461546@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781125157879,
+    "date": "10/06/2026, 22:59:17"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781130339726,
+    "date": "11/06/2026, 00:25:39"
+  },
+  {
+    "jid": "393892016995@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781131496774,
+    "date": "11/06/2026, 00:44:56"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781131526413,
+    "date": "11/06/2026, 00:45:26"
+  },
+  {
+    "jid": "393792098187@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781131935858,
+    "date": "11/06/2026, 00:52:15"
+  },
+  {
+    "jid": "393245351376@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781167863738,
+    "date": "11/06/2026, 10:51:03"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781171212333,
+    "date": "11/06/2026, 11:46:52"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781208381112,
+    "date": "11/06/2026, 22:06:21"
+  },
+  {
+    "jid": "441135223821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781208788207,
+    "date": "11/06/2026, 22:13:08"
+  },
+  {
+    "jid": "393280726693@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781209271462,
+    "date": "11/06/2026, 22:21:11"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781209449578,
+    "date": "11/06/2026, 22:24:09"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781222114388,
+    "date": "12/06/2026, 01:55:14"
+  },
+  {
+    "jid": "33751130226@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781253015881,
+    "date": "12/06/2026, 10:30:15"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781277323050,
+    "date": "12/06/2026, 17:15:23"
+  },
+  {
+    "jid": "393534409026@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781287788334,
+    "date": "12/06/2026, 20:09:48"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781291005485,
+    "date": "12/06/2026, 21:03:25"
+  },
+  {
+    "jid": "393519781327@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781291438160,
+    "date": "12/06/2026, 21:10:38"
+  },
+  {
+    "jid": "441135223821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781291823262,
+    "date": "12/06/2026, 21:17:03"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781292434818,
+    "date": "12/06/2026, 21:27:14"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781293437111,
+    "date": "12/06/2026, 21:43:57"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781293849857,
+    "date": "12/06/2026, 21:50:49"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781294563434,
+    "date": "12/06/2026, 22:02:43"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781352334472,
+    "date": "13/06/2026, 14:05:34"
+  },
+  {
+    "jid": "19899314111@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781353938181,
+    "date": "13/06/2026, 14:32:18"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781355824126,
+    "date": "13/06/2026, 15:03:44"
+  },
+  {
+    "jid": "393514925403@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781367401776,
+    "date": "13/06/2026, 18:16:41"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781379015616,
+    "date": "13/06/2026, 21:30:15"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781389348907,
+    "date": "14/06/2026, 00:22:28"
+  },
+  {
+    "jid": "6288293817984@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781389541072,
+    "date": "14/06/2026, 00:25:41"
+  },
+  {
+    "jid": "393445461546@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781436263636,
+    "date": "14/06/2026, 13:24:23"
+  },
+  {
+    "jid": "393508853853@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781444520064,
+    "date": "14/06/2026, 15:42:00"
+  },
+  {
+    "jid": "393513929554@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781457072629,
+    "date": "14/06/2026, 19:11:12"
+  },
+  {
+    "jid": "5491164879891@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781459179567,
+    "date": "14/06/2026, 19:46:19"
+  },
+  {
+    "jid": "6288293817984@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781461071863,
+    "date": "14/06/2026, 20:17:51"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781463119401,
+    "date": "14/06/2026, 20:51:59"
+  },
+  {
+    "jid": "6288293817984@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781463670370,
+    "date": "14/06/2026, 21:01:10"
+  },
+  {
+    "jid": "393272048014@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781553421212,
+    "date": "15/06/2026, 21:57:01"
+  },
+  {
+    "jid": "393445461546@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781555668947,
+    "date": "15/06/2026, 22:34:28"
+  },
+  {
+    "jid": "393755108175@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781616511392,
+    "date": "16/06/2026, 15:28:31"
+  },
+  {
+    "jid": "393514925403@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781616717183,
+    "date": "16/06/2026, 15:31:57"
+  },
+  {
+    "jid": "393272048014@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781700415345,
+    "date": "17/06/2026, 14:46:55"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781791893943,
+    "date": "18/06/2026, 16:11:33"
+  },
+  {
+    "jid": "393445461546@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781792154432,
+    "date": "18/06/2026, 16:15:54"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781951030812,
+    "date": "20/06/2026, 12:23:50"
+  },
+  {
+    "jid": "393445461546@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781952017859,
+    "date": "20/06/2026, 12:40:17"
+  },
+  {
+    "jid": "441135223821@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781974381910,
+    "date": "20/06/2026, 18:53:01"
+  },
+  {
+    "jid": "393508853853@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781995554951,
+    "date": "21/06/2026, 00:45:54"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1781996492911,
+    "date": "21/06/2026, 01:01:32"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782230197431,
+    "date": "23/06/2026, 17:56:37"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782250543682,
+    "date": "23/06/2026, 23:35:43"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782401329954,
+    "date": "25/06/2026, 17:28:49"
+  },
+  {
+    "jid": "393534409026@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782424503824,
+    "date": "25/06/2026, 23:55:03"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782490180436,
+    "date": "26/06/2026, 18:09:40"
+  },
+  {
+    "jid": "393508853853@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782490822167,
+    "date": "26/06/2026, 18:20:22"
+  },
+  {
+    "jid": "393516106437@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782511299387,
+    "date": "27/06/2026, 00:01:39"
+  },
+  {
+    "jid": "212693713850@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782542045691,
+    "date": "27/06/2026, 08:34:05"
+  },
+  {
+    "jid": "393892191459@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782543420372,
+    "date": "27/06/2026, 08:57:00"
+  },
+  {
+    "jid": "212665138403@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782543865265,
+    "date": "27/06/2026, 09:04:25"
+  },
+  {
+    "jid": "212665138403@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782545729636,
+    "date": "27/06/2026, 09:35:29"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782571105850,
+    "date": "27/06/2026, 16:38:25"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782571862511,
+    "date": "27/06/2026, 16:51:02"
+  },
+  {
+    "jid": "447781518629@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782572554636,
+    "date": "27/06/2026, 17:02:34"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782573702278,
+    "date": "27/06/2026, 17:21:42"
+  },
+  {
+    "jid": "447781518629@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782574227967,
+    "date": "27/06/2026, 17:30:27"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782576274046,
+    "date": "27/06/2026, 18:04:34"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782578551049,
+    "date": "27/06/2026, 18:42:31"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782580197248,
+    "date": "27/06/2026, 19:09:57"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782583814838,
+    "date": "27/06/2026, 20:10:14"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782585028039,
+    "date": "27/06/2026, 20:30:28"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782589700443,
+    "date": "27/06/2026, 21:48:20"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782591852175,
+    "date": "27/06/2026, 22:24:12"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782592185645,
+    "date": "27/06/2026, 22:29:45"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782596386967,
+    "date": "27/06/2026, 23:39:46"
+  },
+  {
+    "jid": "393245871447@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782597196760,
+    "date": "27/06/2026, 23:53:16"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782598123457,
+    "date": "28/06/2026, 00:08:43"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782603070834,
+    "date": "28/06/2026, 01:31:10"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782603531173,
+    "date": "28/06/2026, 01:38:51"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782630573341,
+    "date": "28/06/2026, 09:09:33"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782632184749,
+    "date": "28/06/2026, 09:36:24"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782634780040,
+    "date": "28/06/2026, 10:19:40"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782635575462,
+    "date": "28/06/2026, 10:32:55"
+  },
+  {
+    "jid": "393245871447@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782636006394,
+    "date": "28/06/2026, 10:40:06"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782636320476,
+    "date": "28/06/2026, 10:45:20"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782639557941,
+    "date": "28/06/2026, 11:39:17"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782642411967,
+    "date": "28/06/2026, 12:26:51"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782646811039,
+    "date": "28/06/2026, 13:40:11"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782647367544,
+    "date": "28/06/2026, 13:49:27"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782647564267,
+    "date": "28/06/2026, 13:52:44"
+  },
+  {
+    "jid": "393892191459@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782647616767,
+    "date": "28/06/2026, 13:53:36"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782648944855,
+    "date": "28/06/2026, 14:15:44"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782651177435,
+    "date": "28/06/2026, 14:52:57"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782653083846,
+    "date": "28/06/2026, 15:24:43"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782653455639,
+    "date": "28/06/2026, 15:30:55"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782657165538,
+    "date": "28/06/2026, 16:32:45"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782657280861,
+    "date": "28/06/2026, 16:34:40"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782658802474,
+    "date": "28/06/2026, 17:00:02"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782658811550,
+    "date": "28/06/2026, 17:00:11"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782659132863,
+    "date": "28/06/2026, 17:05:32"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782659920863,
+    "date": "28/06/2026, 17:18:40"
+  },
+  {
+    "jid": "19098189100@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782660527178,
+    "date": "28/06/2026, 17:28:47"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782661258036,
+    "date": "28/06/2026, 17:40:58"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782667429751,
+    "date": "28/06/2026, 19:23:49"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782668368437,
+    "date": "28/06/2026, 19:39:28"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782670645655,
+    "date": "28/06/2026, 20:17:25"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782673954939,
+    "date": "28/06/2026, 21:12:34"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782676174467,
+    "date": "28/06/2026, 21:49:34"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782676248169,
+    "date": "28/06/2026, 21:50:48"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782678741850,
+    "date": "28/06/2026, 22:32:21"
+  },
+  {
+    "jid": "393891395264@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782679357750,
+    "date": "28/06/2026, 22:42:37"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782679517454,
+    "date": "28/06/2026, 22:45:17"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782679855659,
+    "date": "28/06/2026, 22:50:55"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782679917834,
+    "date": "28/06/2026, 22:51:57"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782680942465,
+    "date": "28/06/2026, 23:09:02"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782681914725,
+    "date": "28/06/2026, 23:25:14"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782681988517,
+    "date": "28/06/2026, 23:26:28"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782686058705,
+    "date": "29/06/2026, 00:34:18"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782686406625,
+    "date": "29/06/2026, 00:40:06"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782691229673,
+    "date": "29/06/2026, 02:00:29"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782691263722,
+    "date": "29/06/2026, 02:01:03"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782692287540,
+    "date": "29/06/2026, 02:18:07"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782697003386,
+    "date": "29/06/2026, 03:36:43"
+  },
+  {
+    "jid": "393758934209@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782712630676,
+    "date": "29/06/2026, 07:57:10"
+  },
+  {
+    "jid": "393924440439@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782713525180,
+    "date": "29/06/2026, 08:12:05"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782719957773,
+    "date": "29/06/2026, 09:59:17"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782722651116,
+    "date": "29/06/2026, 10:44:11"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782725980662,
+    "date": "29/06/2026, 11:39:40"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782726169281,
+    "date": "29/06/2026, 11:42:49"
+  },
+  {
+    "jid": "393245871447@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782726726804,
+    "date": "29/06/2026, 11:52:06"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782728233946,
+    "date": "29/06/2026, 12:17:13"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782728544555,
+    "date": "29/06/2026, 12:22:24"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782729424174,
+    "date": "29/06/2026, 12:37:04"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782730846786,
+    "date": "29/06/2026, 13:00:46"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782732944046,
+    "date": "29/06/2026, 13:35:44"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782733530749,
+    "date": "29/06/2026, 13:45:30"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782735121813,
+    "date": "29/06/2026, 14:12:01"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782735373998,
+    "date": "29/06/2026, 14:16:13"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782743737892,
+    "date": "29/06/2026, 16:35:37"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782752529995,
+    "date": "29/06/2026, 19:02:09"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782753212943,
+    "date": "29/06/2026, 19:13:32"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782754307122,
+    "date": "29/06/2026, 19:31:47"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782758548141,
+    "date": "29/06/2026, 20:42:28"
+  },
+  {
+    "jid": "393476686131@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782760096860,
+    "date": "29/06/2026, 21:08:16"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782762363895,
+    "date": "29/06/2026, 21:46:03"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782762714747,
+    "date": "29/06/2026, 21:51:54"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782762981238,
+    "date": "29/06/2026, 21:56:21"
+  },
+  {
+    "jid": "393791321453@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782764051945,
+    "date": "29/06/2026, 22:14:11"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782766766123,
+    "date": "29/06/2026, 22:59:26"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782770395252,
+    "date": "29/06/2026, 23:59:55"
+  },
+  {
+    "jid": "393508853853@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782771184639,
+    "date": "30/06/2026, 00:13:04"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782775632187,
+    "date": "30/06/2026, 01:27:12"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782777805953,
+    "date": "30/06/2026, 02:03:25"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782777964251,
+    "date": "30/06/2026, 02:06:04"
+  },
+  {
+    "jid": "393791321453@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782778022280,
+    "date": "30/06/2026, 02:07:02"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782778761886,
+    "date": "30/06/2026, 02:19:21"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782804664570,
+    "date": "30/06/2026, 09:31:04"
+  },
+  {
+    "jid": "393925150578@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782808044192,
+    "date": "30/06/2026, 10:27:24"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782808454605,
+    "date": "30/06/2026, 10:34:14"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782811490162,
+    "date": "30/06/2026, 11:24:50"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782812905875,
+    "date": "30/06/2026, 11:48:25"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782812989605,
+    "date": "30/06/2026, 11:49:49"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782813843896,
+    "date": "30/06/2026, 12:04:03"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782815148263,
+    "date": "30/06/2026, 12:25:48"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782815170575,
+    "date": "30/06/2026, 12:26:10"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782815313552,
+    "date": "30/06/2026, 12:28:33"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782815899453,
+    "date": "30/06/2026, 12:38:19"
+  },
+  {
+    "jid": "393762502686@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782816706230,
+    "date": "30/06/2026, 12:51:46"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782816828794,
+    "date": "30/06/2026, 12:53:48"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782817125588,
+    "date": "30/06/2026, 12:58:45"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782817261789,
+    "date": "30/06/2026, 13:01:01"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782819075196,
+    "date": "30/06/2026, 13:31:15"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782819254444,
+    "date": "30/06/2026, 13:34:14"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782822617256,
+    "date": "30/06/2026, 14:30:17"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782823210615,
+    "date": "30/06/2026, 14:40:10"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782823428402,
+    "date": "30/06/2026, 14:43:48"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782823430738,
+    "date": "30/06/2026, 14:43:50"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782824876012,
+    "date": "30/06/2026, 15:07:56"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782827493666,
+    "date": "30/06/2026, 15:51:33"
+  },
+  {
+    "jid": "393791321453@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782830191641,
+    "date": "30/06/2026, 16:36:31"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782830199976,
+    "date": "30/06/2026, 16:36:39"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782831323115,
+    "date": "30/06/2026, 16:55:23"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782831649801,
+    "date": "30/06/2026, 17:00:49"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782832185283,
+    "date": "30/06/2026, 17:09:45"
+  },
+  {
+    "jid": "584267184243@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782832474372,
+    "date": "30/06/2026, 17:14:34"
+  },
+  {
+    "jid": "393925150578@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782834702686,
+    "date": "30/06/2026, 17:51:42"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782834725990,
+    "date": "30/06/2026, 17:52:05"
+  },
+  {
+    "jid": "584267184243@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782835255361,
+    "date": "30/06/2026, 18:00:55"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782835808374,
+    "date": "30/06/2026, 18:10:08"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782836192327,
+    "date": "30/06/2026, 18:16:32"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782836642690,
+    "date": "30/06/2026, 18:24:02"
+  },
+  {
+    "jid": "393762502686@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782836826946,
+    "date": "30/06/2026, 18:27:06"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782837777127,
+    "date": "30/06/2026, 18:42:57"
+  },
+  {
+    "jid": "584267184243@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782837855182,
+    "date": "30/06/2026, 18:44:15"
+  },
+  {
+    "jid": "393791321453@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782840742818,
+    "date": "30/06/2026, 19:32:22"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782847202394,
+    "date": "30/06/2026, 21:20:02"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782847535746,
+    "date": "30/06/2026, 21:25:35"
+  },
+  {
+    "jid": "393925150578@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782848104527,
+    "date": "30/06/2026, 21:35:04"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782850728834,
+    "date": "30/06/2026, 22:18:48"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782850738965,
+    "date": "30/06/2026, 22:18:58"
+  },
+  {
+    "jid": "393791321453@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782851137462,
+    "date": "30/06/2026, 22:25:37"
+  },
+  {
+    "jid": "393758934209@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782852846963,
+    "date": "30/06/2026, 22:54:06"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782853454856,
+    "date": "30/06/2026, 23:04:14"
+  },
+  {
+    "jid": "393717683364@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782856357785,
+    "date": "30/06/2026, 23:52:37"
+  },
+  {
+    "jid": "393515751690@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782857834179,
+    "date": "01/07/2026, 00:17:14"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782859761512,
+    "date": "01/07/2026, 00:49:21"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782862842530,
+    "date": "01/07/2026, 01:40:42"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782863833901,
+    "date": "01/07/2026, 01:57:13"
+  },
+  {
+    "jid": "447836786987@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782869473135,
+    "date": "01/07/2026, 03:31:13"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782895390810,
+    "date": "01/07/2026, 10:43:10"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782898633084,
+    "date": "01/07/2026, 11:37:13"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782911009573,
+    "date": "01/07/2026, 15:03:29"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782911123452,
+    "date": "01/07/2026, 15:05:23"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782911523116,
+    "date": "01/07/2026, 15:12:03"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782912677414,
+    "date": "01/07/2026, 15:31:17"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782915688039,
+    "date": "01/07/2026, 16:21:28"
+  },
+  {
+    "jid": "393762502686@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782916522677,
+    "date": "01/07/2026, 16:35:22"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782917927454,
+    "date": "01/07/2026, 16:58:47"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782919923564,
+    "date": "01/07/2026, 17:32:03"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782924091606,
+    "date": "01/07/2026, 18:41:31"
+  },
+  {
+    "jid": "393515751690@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782927277533,
+    "date": "01/07/2026, 19:34:37"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782929896863,
+    "date": "01/07/2026, 20:18:16"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782936904943,
+    "date": "01/07/2026, 22:15:04"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782940023674,
+    "date": "01/07/2026, 23:07:03"
+  },
+  {
+    "jid": "393387598438@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782941327366,
+    "date": "01/07/2026, 23:28:47"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782941776067,
+    "date": "01/07/2026, 23:36:16"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782942127753,
+    "date": "01/07/2026, 23:42:07"
+  },
+  {
+    "jid": "393387598438@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782947464016,
+    "date": "02/07/2026, 01:11:04"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782949360338,
+    "date": "02/07/2026, 01:42:40"
+  },
+  {
+    "jid": "393925150578@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782950084937,
+    "date": "02/07/2026, 01:54:44"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782951283828,
+    "date": "02/07/2026, 02:14:43"
+  },
+  {
+    "jid": "393516268982@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782951841521,
+    "date": "02/07/2026, 02:24:01"
+  },
+  {
+    "jid": "393485904573@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782954174454,
+    "date": "02/07/2026, 03:02:54"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782954476065,
+    "date": "02/07/2026, 03:07:56"
+  },
+  {
+    "jid": "393510195121@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782956032194,
+    "date": "02/07/2026, 03:33:52"
+  },
+  {
+    "jid": "393485904573@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782958043132,
+    "date": "02/07/2026, 04:07:23"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782989399691,
+    "date": "02/07/2026, 12:49:59"
+  },
+  {
+    "jid": "393200970971@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782990002219,
+    "date": "02/07/2026, 13:00:02"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782993194761,
+    "date": "02/07/2026, 13:53:14"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782993443697,
+    "date": "02/07/2026, 13:57:23"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782995754937,
+    "date": "02/07/2026, 14:35:54"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782995796247,
+    "date": "02/07/2026, 14:36:36"
+  },
+  {
+    "jid": "393925150578@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782999139697,
+    "date": "02/07/2026, 15:32:19"
+  },
+  {
+    "jid": "393892191459@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1782999344967,
+    "date": "02/07/2026, 15:35:44"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783000959269,
+    "date": "02/07/2026, 16:02:39"
+  },
+  {
+    "jid": "393791321453@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783003018811,
+    "date": "02/07/2026, 16:36:58"
+  },
+  {
+    "jid": "393335795654@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783004691535,
+    "date": "02/07/2026, 17:04:51"
+  },
+  {
+    "jid": "393297228475@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783004962673,
+    "date": "02/07/2026, 17:09:22"
+  },
+  {
+    "jid": "393383204737@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783005115804,
+    "date": "02/07/2026, 17:11:55"
+  },
+  {
+    "jid": "393515751690@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783007860214,
+    "date": "02/07/2026, 17:57:40"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783008362093,
+    "date": "02/07/2026, 18:06:02"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783010433946,
+    "date": "02/07/2026, 18:40:33"
+  },
+  {
+    "jid": "393245871447@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783011987779,
+    "date": "02/07/2026, 19:06:27"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783012742984,
+    "date": "02/07/2026, 19:19:02"
+  },
+  {
+    "jid": "393445461546@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783013099942,
+    "date": "02/07/2026, 19:24:59"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783014132578,
+    "date": "02/07/2026, 19:42:12"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783015822898,
+    "date": "02/07/2026, 20:10:22"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783016092482,
+    "date": "02/07/2026, 20:14:52"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783016092485,
+    "date": "02/07/2026, 20:14:52"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783018719683,
+    "date": "02/07/2026, 20:58:39"
+  },
+  {
+    "jid": "393516268982@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783022292167,
+    "date": "02/07/2026, 21:58:12"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783022415770,
+    "date": "02/07/2026, 22:00:15"
+  },
+  {
+    "jid": "393455986151@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783022545635,
+    "date": "02/07/2026, 22:02:25"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783022736551,
+    "date": "02/07/2026, 22:05:36"
+  },
+  {
+    "jid": "393387598438@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783023024698,
+    "date": "02/07/2026, 22:10:24"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783023644952,
+    "date": "02/07/2026, 22:20:44"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783023730783,
+    "date": "02/07/2026, 22:22:10"
+  },
+  {
+    "jid": "393501328718@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783023785400,
+    "date": "02/07/2026, 22:23:05"
+  },
+  {
+    "jid": "393780887122@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783024447339,
+    "date": "02/07/2026, 22:34:07"
+  },
+  {
+    "jid": "393387598438@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783024479656,
+    "date": "02/07/2026, 22:34:39"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783024832959,
+    "date": "02/07/2026, 22:40:32"
+  },
+  {
+    "jid": "393201871666@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783025336261,
+    "date": "02/07/2026, 22:48:56"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783026591832,
+    "date": "02/07/2026, 23:09:51"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783028307092,
+    "date": "02/07/2026, 23:38:27"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783030517874,
+    "date": "03/07/2026, 00:15:17"
+  },
+  {
+    "jid": "393780887122@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783033266312,
+    "date": "03/07/2026, 01:01:06"
+  },
+  {
+    "jid": "393485904573@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783034056393,
+    "date": "03/07/2026, 01:14:16"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783035300590,
+    "date": "03/07/2026, 01:35:00"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783037187080,
+    "date": "03/07/2026, 02:06:27"
+  },
+  {
+    "jid": "393664318070@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783038916032,
+    "date": "03/07/2026, 02:35:16"
+  },
+  {
+    "jid": "447836786987@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783039167672,
+    "date": "03/07/2026, 02:39:27"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783039427681,
+    "date": "03/07/2026, 02:43:47"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783041961361,
+    "date": "03/07/2026, 03:26:01"
+  },
+  {
+    "jid": "393780887122@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783042023764,
+    "date": "03/07/2026, 03:27:03"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783042584980,
+    "date": "03/07/2026, 03:36:24"
+  },
+  {
+    "jid": "393485904573@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783043720586,
+    "date": "03/07/2026, 03:55:20"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783048405956,
+    "date": "03/07/2026, 05:13:25"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783049182113,
+    "date": "03/07/2026, 05:26:22"
+  },
+  {
+    "jid": "19098189100@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783060268677,
+    "date": "03/07/2026, 08:31:08"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783062490414,
+    "date": "03/07/2026, 09:08:10"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783062881080,
+    "date": "03/07/2026, 09:14:41"
+  },
+  {
+    "jid": "393793275341@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783077042130,
+    "date": "03/07/2026, 13:10:42"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783078247364,
+    "date": "03/07/2026, 13:30:47"
+  },
+  {
+    "jid": "393664318070@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783082346842,
+    "date": "03/07/2026, 14:39:06"
+  },
+  {
+    "jid": "393762502686@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783082578335,
+    "date": "03/07/2026, 14:42:58"
+  },
+  {
+    "jid": "393515751690@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783090198039,
+    "date": "03/07/2026, 16:49:58"
+  },
+  {
+    "jid": "393201871666@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783097338858,
+    "date": "03/07/2026, 18:48:58"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783102124988,
+    "date": "03/07/2026, 20:08:44"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783106576719,
+    "date": "03/07/2026, 21:22:56"
+  },
+  {
+    "jid": "393516608167@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783107465829,
+    "date": "03/07/2026, 21:37:45"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783111556687,
+    "date": "03/07/2026, 22:45:56"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783113776053,
+    "date": "03/07/2026, 23:22:56"
+  },
+  {
+    "jid": "393516268982@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783114030918,
+    "date": "03/07/2026, 23:27:10"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783114315895,
+    "date": "03/07/2026, 23:31:55"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783116921269,
+    "date": "04/07/2026, 00:15:21"
+  },
+  {
+    "jid": "393291244417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783117087384,
+    "date": "04/07/2026, 00:18:07"
+  },
+  {
+    "jid": "393284958085@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783119093843,
+    "date": "04/07/2026, 00:51:33"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783120408679,
+    "date": "04/07/2026, 01:13:28"
+  },
+  {
+    "jid": "13162695032@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783121758689,
+    "date": "04/07/2026, 01:35:58"
+  },
+  {
+    "jid": "393291244417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783121903898,
+    "date": "04/07/2026, 01:38:23"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783126085316,
+    "date": "04/07/2026, 02:48:05"
+  },
+  {
+    "jid": "393510195121@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783127157472,
+    "date": "04/07/2026, 03:05:57"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783130367455,
+    "date": "04/07/2026, 03:59:27"
+  },
+  {
+    "jid": "393515751690@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783130513328,
+    "date": "04/07/2026, 04:01:53"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783135026874,
+    "date": "04/07/2026, 05:17:06"
+  },
+  {
+    "jid": "393925348038@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783135881623,
+    "date": "04/07/2026, 05:31:21"
+  },
+  {
+    "jid": "393277522839@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783142812462,
+    "date": "04/07/2026, 07:26:52"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783143174226,
+    "date": "04/07/2026, 07:32:54"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783154975949,
+    "date": "04/07/2026, 10:49:35"
+  },
+  {
+    "jid": "393520931386@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783155689198,
+    "date": "04/07/2026, 11:01:29"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783159008723,
+    "date": "04/07/2026, 11:56:48"
+  },
+  {
+    "jid": "237693647524@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783163934179,
+    "date": "04/07/2026, 13:18:54"
+  },
+  {
+    "jid": "447919635573@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783164334806,
+    "date": "04/07/2026, 13:25:34"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783165247236,
+    "date": "04/07/2026, 13:40:47"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783167335435,
+    "date": "04/07/2026, 14:15:35"
+  },
+  {
+    "jid": "393780887122@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783168072292,
+    "date": "04/07/2026, 14:27:52"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783168823201,
+    "date": "04/07/2026, 14:40:23"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783170217952,
+    "date": "04/07/2026, 15:03:37"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783170364149,
+    "date": "04/07/2026, 15:06:04"
+  },
+  {
+    "jid": "393519638510@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783173724473,
+    "date": "04/07/2026, 16:02:04"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783181995785,
+    "date": "04/07/2026, 18:19:55"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783185019231,
+    "date": "04/07/2026, 19:10:19"
+  },
+  {
+    "jid": "393334452500@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783185973873,
+    "date": "04/07/2026, 19:26:13"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783187666193,
+    "date": "04/07/2026, 19:54:26"
+  },
+  {
+    "jid": "393930988188@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783189616596,
+    "date": "04/07/2026, 20:26:56"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783189893517,
+    "date": "04/07/2026, 20:31:33"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783190281786,
+    "date": "04/07/2026, 20:38:01"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783191314311,
+    "date": "04/07/2026, 20:55:14"
+  },
+  {
+    "jid": "393930988188@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783191533099,
+    "date": "04/07/2026, 20:58:53"
+  },
+  {
+    "jid": "393758938399@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783191901069,
+    "date": "04/07/2026, 21:05:01"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783192281549,
+    "date": "04/07/2026, 21:11:21"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783192476371,
+    "date": "04/07/2026, 21:14:36"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783192729172,
+    "date": "04/07/2026, 21:18:49"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783192782792,
+    "date": "04/07/2026, 21:19:42"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783194863963,
+    "date": "04/07/2026, 21:54:23"
+  },
+  {
+    "jid": "393929229981@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783195005044,
+    "date": "04/07/2026, 21:56:45"
+  },
+  {
+    "jid": "393930988188@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783200944436,
+    "date": "04/07/2026, 23:35:44"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783202043463,
+    "date": "04/07/2026, 23:54:03"
+  },
+  {
+    "jid": "393277522839@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783205570864,
+    "date": "05/07/2026, 00:52:50"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783206782621,
+    "date": "05/07/2026, 01:13:02"
+  },
+  {
+    "jid": "447836786987@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783206962739,
+    "date": "05/07/2026, 01:16:02"
+  },
+  {
+    "jid": "393792401482@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783207142995,
+    "date": "05/07/2026, 01:19:02"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783209087608,
+    "date": "05/07/2026, 01:51:27"
+  },
+  {
+    "jid": "393892191459@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783209562955,
+    "date": "05/07/2026, 01:59:22"
+  },
+  {
+    "jid": "393291244417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783209743708,
+    "date": "05/07/2026, 02:02:23"
+  },
+  {
+    "jid": "393930988188@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783209821113,
+    "date": "05/07/2026, 02:03:41"
+  },
+  {
+    "jid": "393773882697@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783211418271,
+    "date": "05/07/2026, 02:30:18"
+  },
+  {
+    "jid": "393881592168@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783211673275,
+    "date": "05/07/2026, 02:34:33"
+  },
+  {
+    "jid": "19022003501@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783211953673,
+    "date": "05/07/2026, 02:39:13"
+  },
+  {
+    "jid": "393664318070@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783212289708,
+    "date": "05/07/2026, 02:44:49"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783213153015,
+    "date": "05/07/2026, 02:59:13"
+  },
+  {
+    "jid": "393930988188@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783213247444,
+    "date": "05/07/2026, 03:00:47"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783213462853,
+    "date": "05/07/2026, 03:04:22"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783213975033,
+    "date": "05/07/2026, 03:12:55"
+  },
+  {
+    "jid": "393291244417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783214094528,
+    "date": "05/07/2026, 03:14:54"
+  },
+  {
+    "jid": "393204976722@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783214476470,
+    "date": "05/07/2026, 03:21:16"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783214799024,
+    "date": "05/07/2026, 03:26:39"
+  },
+  {
+    "jid": "393881592168@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783214825367,
+    "date": "05/07/2026, 03:27:05"
+  },
+  {
+    "jid": "393930988188@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783214923743,
+    "date": "05/07/2026, 03:28:43"
+  },
+  {
+    "jid": "393291244417@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783215730261,
+    "date": "05/07/2026, 03:42:10"
+  },
+  {
+    "jid": "393517267535@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783216126016,
+    "date": "05/07/2026, 03:48:46"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783216226624,
+    "date": "05/07/2026, 03:50:26"
+  },
+  {
+    "jid": "393930988188@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783217137466,
+    "date": "05/07/2026, 04:05:37"
+  },
+  {
+    "jid": "393201871666@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783217618392,
+    "date": "05/07/2026, 04:13:38"
+  },
+  {
+    "jid": "393894626339@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783222562211,
+    "date": "05/07/2026, 05:36:02"
+  },
+  {
+    "jid": "393516608167@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783236922697,
+    "date": "05/07/2026, 09:35:22"
+  },
+  {
+    "jid": "393758938399@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783239450179,
+    "date": "05/07/2026, 10:17:30"
+  },
+  {
+    "jid": "393516608167@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783244586368,
+    "date": "05/07/2026, 11:43:06"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783246032660,
+    "date": "05/07/2026, 12:07:12"
+  },
+  {
+    "jid": "393884034344@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783247137371,
+    "date": "05/07/2026, 12:25:37"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783247337993,
+    "date": "05/07/2026, 12:28:57"
+  },
+  {
+    "jid": "393780887122@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783247615938,
+    "date": "05/07/2026, 12:33:35"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783248415830,
+    "date": "05/07/2026, 12:46:55"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783249410282,
+    "date": "05/07/2026, 13:03:30"
+  },
+  {
+    "jid": "393518695398@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783250102026,
+    "date": "05/07/2026, 13:15:02"
+  },
+  {
+    "jid": "393533074387@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783253002454,
+    "date": "05/07/2026, 14:03:22"
+  },
+  {
+    "jid": "447836786987@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783253047362,
+    "date": "05/07/2026, 14:04:07"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783255771940,
+    "date": "05/07/2026, 14:49:31"
+  },
+  {
+    "jid": "393516608167@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783256716237,
+    "date": "05/07/2026, 15:05:16"
+  },
+  {
+    "jid": "393343971831@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783258144926,
+    "date": "05/07/2026, 15:29:04"
+  },
+  {
+    "jid": "393758938399@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783258276791,
+    "date": "05/07/2026, 15:31:16"
+  },
+  {
+    "jid": "393791043588@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783258392843,
+    "date": "05/07/2026, 15:33:12"
+  },
+  {
+    "jid": "393520931386@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783258612308,
+    "date": "05/07/2026, 15:36:52"
+  },
+  {
+    "jid": "393884034344@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783258887479,
+    "date": "05/07/2026, 15:41:27"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783259715454,
+    "date": "05/07/2026, 15:55:15"
+  },
+  {
+    "jid": "12016195936@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783261644274,
+    "date": "05/07/2026, 16:27:24"
+  },
+  {
+    "jid": "393512816540@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783262558529,
+    "date": "05/07/2026, 16:42:38"
+  },
+  {
+    "jid": "393780887122@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783265371129,
+    "date": "05/07/2026, 17:29:31"
+  },
+  {
+    "jid": "393892920357@s.whatsapp.net",
+    "amount": 450,
+    "type": "PREMIO_MESSAGGI",
+    "timestamp": 1783265895146,
+    "date": "05/07/2026, 17:38:15"
+  }
+]

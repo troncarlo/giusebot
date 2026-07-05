@@ -1,6 +1,8 @@
-export async function soloadmin(m, { isAdmin, isOwner, isMod }) {
-    if (m.isBaileys || !m.isGroup) return true
+export async function soloadmin(m, { isAdmin, isOwner, isMod, isGroup }) {
+    if (m.isBaileys || !isGroup) return true
     
+    if (isAdmin === undefined) return true
+
     const chat = global.db.data.groups[m.chat]
     
     if (chat?.soloadmin) {

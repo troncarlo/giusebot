@@ -111,7 +111,7 @@ npm start
 | `axios` | Chiamate API esterne |
 | `chalk` | Output colorato nel terminale |
 | `chokidar` | Hot-reload plugin |
-| `file-type` | Rilevamento tipo file/media |
+| `file-type` | Rilevamento tipo file/data |
 | `node-cache` | Cache contatti e gruppi |
 | `pino` | Logger |
 | `node-fetch` | Fetch HTTP nei plugin |

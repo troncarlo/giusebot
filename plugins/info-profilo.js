@@ -10,9 +10,9 @@ const handler = async (m, { conn, usedPrefix }) => {
     
     const nomeUtente = (jid === m.sender) ? m.pushName : (conn.getName ? await conn.getName(jid) : jid.split('@')[0])
     
-    const walletDb = loadJson('./media/wallet.json')
-    const livelliDb = loadJson('./media/livelli.json')
-    const compleanniDb = loadJson('./media/compleanni.json')
+    const walletDb = loadJson('./data/wallet.json')
+    const livelliDb = loadJson('./data/livelli.json')
+    const compleanniDb = loadJson('./data/compleanni.json')
     const usersDb = global.db.data.users || {}
 
     const userData = usersDb[jid] || {}
@@ -28,9 +28,9 @@ const handler = async (m, { conn, usedPrefix }) => {
         .sort((a, b) => (b[1].messages || 0) - (a[1].messages || 0))
         .findIndex(([id]) => id === jid) + 1) || '❓'
 
-    const bio = loadJson('./media/descrizioni.json')[jid] ?? 'Nessuna descrizione impostata.'
-    const genere = loadJson('./media/genere.json')[jid] ?? '❓'
-    const lingua = loadJson('./media/lingua.json')[jid] ?? 'Italiano'
+    const bio = loadJson('./data/descrizioni.json')[jid] ?? 'Nessuna descrizione impostata.'
+    const genere = loadJson('./data/genere.json')[jid] ?? '❓'
+    const lingua = loadJson('./data/lingua.json')[jid] ?? 'Italiano'
     const genereIcon = genere.toLowerCase() === 'maschio' ? '♂️' : genere.toLowerCase() === 'femmina' ? '♀️' : '❓'
 
     const level = userLvl.level || 1

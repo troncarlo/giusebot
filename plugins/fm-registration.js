@@ -1,9 +1,9 @@
 import fs from 'fs'
-const dbPath = './media/lastfm.json'
+const dbPath = './data/lastfm.json'
 
 let handler = async (m, { text, usedPrefix, command }) => {
     if (!text) return m.reply(`Uso: ${usedPrefix + command} [username]`)
-    if (!fs.existsSync('./media')) fs.mkdirSync('./media')
+    if (!fs.existsSync('./data')) fs.mkdirSync('./data')
     let db = fs.existsSync(dbPath) ? JSON.parse(fs.readFileSync(dbPath, 'utf-8')) : {}
     db[m.sender] = text
     fs.writeFileSync(dbPath, JSON.stringify(db, null, 2))

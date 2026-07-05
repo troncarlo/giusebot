@@ -12,7 +12,7 @@ export async function eventsUpdate(conn, anu) {
         const chatData = global.db.data.groups?.[id] || global.db.data.chats?.[id]
         if (!chatData || !chatData.benvenuto) return
 
-        const dbPath = './media/eventi.json'
+        const dbPath = './data/eventi.json'
         const db = fs.existsSync(dbPath) ? JSON.parse(fs.readFileSync(dbPath, 'utf-8')) : {}
 
         const metadata = await conn.groupMetadata(id)

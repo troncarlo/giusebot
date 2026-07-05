@@ -45,9 +45,9 @@ const handler = async (m, { conn, text }) => {
         }
 
         const filename = `${text}.${ext}`
-        const filepath = `./media/${filename}`
+        const filepath = `./data/${filename}`
 
-        if (!fs.existsSync('./media')) fs.mkdirSync('./media')
+        if (!fs.existsSync('./data')) fs.mkdirSync('./data')
         fs.writeFileSync(filepath, buffer)
 
         await conn.sendMessage(m.chat, { 

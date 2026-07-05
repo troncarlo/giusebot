@@ -1,9 +1,9 @@
 import fs from 'fs'
 
-const walletPath = './media/wallet.json'
+const walletPath = './data/wallet.json'
 
 const getDb = (dbPath) => {
-    if (!fs.existsSync('./media')) fs.mkdirSync('./media', { recursive: true })
+    if (!fs.existsSync('./data')) fs.mkdirSync('./data', { recursive: true })
     if (!fs.existsSync(dbPath)) fs.writeFileSync(dbPath, JSON.stringify({}))
     return JSON.parse(fs.readFileSync(dbPath, 'utf-8'))
 }

@@ -1,16 +1,18 @@
 import fs from 'fs'
 
 const handler = async (m, { conn }) => {
-    await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote')
-    
-    try {
-        if (fs.existsSync('./media/admin.webp')) {
-            const sticker = fs.readFileSync('./media/admin.webp')
-            await conn.sendMessage(m.chat, { sticker: sticker }, { quoted: m })
-        }
-    } catch (e) {
-        console.error(e)
+    const sender = m.senderJid || m.sender
+    await conn.groupParticipantsUpdate(m.chat, [sender], 'promote')
+
+}
+
+handler.reaction = async (m, { conn, emoji }) => {
+
+    if (emoji !== '💔' && emoji !== '🍫' && emoji !== '🔓') {
+        return
     }
+
+    await handler(m, { conn })
 }
 
 handler.help = ['adm', 'autoadmin']

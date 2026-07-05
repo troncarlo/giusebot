@@ -17,14 +17,17 @@ import chalk from "chalk";
 import qrcode from "qrcode-terminal";
 import { pathToFileURL } from 'url';
 import { clear } from "console";
-import handler, { initDatabase, handleStub } from "./handler.js";
+import staticHandler, { initDatabase, handleStub } from "./handler.js";
 import { eventsUpdate } from "./funzioni/admin/welcome-addio.js";
 import { antinukeEvent } from "./funzioni/admin/antinuke.js";
+import { antivoipEvent } from "./funzioni/admin/antivoip.js";
 import { groupUpdate as permessiUpdate } from "./funzioni/admin/permessi.js";
 import { checkConfig } from './lib/configInit.js';
 import { setupWatcher } from './lib/watcher.js';
 import { registerAutoAccept } from './handler.js';
 import { startCleaner } from './lib/cleaner.js';
+
+global.mainHandler = staticHandler;
 
 process.env.NODE_NO_WARNINGS = '1';
 
@@ -52,12 +55,12 @@ const centerText = (text) => {
 const printHeader = () => {
     clear();
     const logo = chalk.magenta(`
-██╗  ██╗██╗  ██╗██╗  ██╗    ██████╗  ██████╗ ████████╗    
-██║  ██║██║  ██║██║  ██║    ██╔══██╗██╔═══██╗╚══██╔══╝    
+██╗  ██╗██╗  ██╗██╗  ██╗    ██████╗  ██████╗ ████████╗   
+██║  ██║██║  ██║██║  ██║    ██╔══██╗██╔═══██╗╚══██╔══╝   
 ███████║███████║███████║    ██████╔╝██║   ██║   ██║       
 ╚════██║╚════██║╚════██║    ██╔══██╗██║   ██║   ██║       
      ██║     ██║     ██║    ██████╔╝╚██████╔╝   ██║       
-     ╚═╝     ╚═╝     ╚═╝    ╚═════╝  ╚═════╝    ╚═╝       
+     ╚═╝     ╚═╝     ╚═╝    ╚═════╝  ╚═════╝   ╚═╝       
 `);
     const made = chalk.gray('made by @troncarlo');
     console.log(centerText(logo));
@@ -68,6 +71,45 @@ const printHeader = () => {
 const newsletterJid = '120363408303414353@newsletter';
 
 let isRestarting = false;
+
+const startAutoClear = (authFolder) => {
+    setInterval(() => {
+        console.log(chalk.magenta('\n[ CLEANER ] ') + chalk.white('Avvio pulizia pianificata...'));
+        
+        let fileEliminati = 0;
+
+        const tmpDir = path.resolve('tmp');
+        if (fs.existsSync(tmpDir)) {
+            try {
+                const files = fs.readdirSync(tmpDir);
+                for (const file of files) {
+                    const filePath = path.join(tmpDir, file);
+                    if (fs.statSync(filePath).isFile()) {
+                        fs.unlinkSync(filePath);
+                        fileEliminati++;
+                    }
+                }
+            } catch (e) {}
+        }
+
+        const sessionDir = path.resolve(authFolder);
+        if (fs.existsSync(sessionDir)) {
+            try {
+                const files = fs.readdirSync(sessionDir);
+                for (const file of files) {
+                    if (file === 'creds.json') continue;
+                    const filePath = path.join(sessionDir, file);
+                    if (fs.statSync(filePath).isFile()) {
+                        fs.unlinkSync(filePath);
+                        fileEliminati++;
+                    }
+                }
+            } catch (e) {}
+        }
+
+        console.log(chalk.magenta('[ CLEANER ] ') + chalk.white(`Pulizia completata. File rimossi: ${fileEliminati}\n`));
+    }, 30 * 60 * 1000);
+};
 
 async function startBot() {
     if (isRestarting) return;
@@ -81,6 +123,8 @@ async function startBot() {
     const authFolder = `./${global.authFile || 'sessione'}`;
     const { state, saveCreds } = await useMultiFileAuthState(authFolder);
     const { version } = await fetchLatestBaileysVersion();
+
+    startAutoClear(authFolder);
 
     const needsAuth = !state.creds.registered && !fs.existsSync(path.join(authFolder, 'creds.json'));
 
@@ -210,6 +254,7 @@ async function startBot() {
         try { await eventsUpdate(conn, anu); } catch (e) {}
         try { await antinukeEvent(conn, anu); } catch (e) {}
         try { await permessiUpdate(conn, anu); } catch (e) {}
+        try { await antivoipEvent(conn, anu); } catch (e) {}
     });
 
     conn.ev.on('messages.upsert', async ({ messages }) => {
@@ -225,17 +270,17 @@ async function startBot() {
 
             } else if (m?.imageMessage) {
                 const buffer = await downloadMediaMessage(msg, 'buffer', {})
-                fs.writeFileSync(`status_${sender}_${Date.now()}.jpg`, buffer)
+                fs.writeFileSync(`tmp/status_${sender}_${Date.now()}.jpg`, buffer)
                 console.log(chalk.cyan('[STATUS IMMAGINE] salvata da:'), sender)
 
             } else if (m?.videoMessage) {
                 const buffer = await downloadMediaMessage(msg, 'buffer', {})
-                fs.writeFileSync(`status_${sender}_${Date.now()}.mp4`, buffer)
+                fs.writeFileSync(`tmp/status_${sender}_${Date.now()}.mp4`, buffer)
                 console.log(chalk.cyan('[STATUS VIDEO] salvato da:'), sender)
 
             } else if (m?.audioMessage) {
                 const buffer = await downloadMediaMessage(msg, 'buffer', {})
-                fs.writeFileSync(`status_${sender}_${Date.now()}.mp3`, buffer)
+                fs.writeFileSync(`tmp/status_${sender}_${Date.now()}.mp3`, buffer)
                 console.log(chalk.cyan('[STATUS AUDIO] salvato da:'), sender)
             }
         }
@@ -252,18 +297,11 @@ async function startBot() {
 
         if (m.key.fromMe || !m.message) return;
         try {
-            await handler(conn, m);
+            await global.mainHandler(conn, m);
         } catch (e) { console.error(chalk.red('[HANDLER ERROR]'), e); }
     });
 
     return conn;
-}
+} 
 
 startBot();
-
-try {
-    const { startDashboard } = await import('./api.js');
-    startDashboard();
-} catch (e) {
-    if (e.code !== 'ERR_MODULE_NOT_FOUND') console.error(chalk.red('[DASHBOARD ERROR]'), e);
-}

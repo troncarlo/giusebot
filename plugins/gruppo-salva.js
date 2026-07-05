@@ -1,7 +1,7 @@
 import fs from 'fs'
 
-const plPath = './media/playlists.json'
-const songsDbPath = './media/canzoni.json'
+const plPath = './data/playlists.json'
+const songsDbPath = './data/canzoni.json'
 
 const handler = async (m, { conn, usedPrefix, command, text }) => {
     console.log(`[SALVA LOG] Comando ricevuto: ${command}`)

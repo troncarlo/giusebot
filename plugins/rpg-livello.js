@@ -1,7 +1,7 @@
 import axios from 'axios'
 import fs from 'fs'
 
-const databasePath = './media/livelli.json'
+const databasePath = './data/livelli.json'
 
 const getDb = (path) => {
     if (!fs.existsSync(path)) fs.writeFileSync(path, JSON.stringify({}))

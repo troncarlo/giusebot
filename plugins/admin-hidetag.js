@@ -53,7 +53,7 @@ const handler = async (m, { conn, text, participants, command }) => {
         mentions: users
       }, { quoted: m });
     } else {
-      return m.reply('`𐔌⚠️ ꒱` _Inserisci un testo o rispondi a un messaggio/media/sondaggio/evento._');
+      return m.reply('`𐔌⚠️ ꒱` _Inserisci un testo o rispondi a un messaggio/data/sondaggio/evento._');
     }
     
   } catch (e) {

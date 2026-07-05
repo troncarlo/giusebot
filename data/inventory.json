@@ -1,0 +1,30 @@
+{
+  "393517267535@s.whatsapp.net": {
+    "canna": 1,
+    "piccone": 1,
+    "piccone_lvl": 2,
+    "zaino_lvl": 2
+  },
+  "393513104378@s.whatsapp.net": {
+    "canna": 0,
+    "piccone": 1
+  },
+  "393297228475@s.whatsapp.net": {
+    "canna": 0,
+    "piccone_lvl": 2,
+    "zaino_lvl": 2,
+    "carbone": 0,
+    "ferro": 0,
+    "oro": 0,
+    "diamante": 0
+  },
+  "393533074387@s.whatsapp.net": {
+    "canna": 0,
+    "piccone_lvl": 5,
+    "zaino_lvl": 5,
+    "carbone": 0,
+    "ferro": 0,
+    "oro": 0,
+    "diamante": 0
+  }
+}

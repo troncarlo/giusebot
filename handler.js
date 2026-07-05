@@ -9,8 +9,9 @@ import { antiwa } from './funzioni/admin/antiwa.js'
 import { antimedia } from './funzioni/admin/antimedia.js'
 import { soloadmin } from './funzioni/admin/soloadmin.js'
 import { antinuke } from './funzioni/admin/antinuke.js'
+import { antivoip } from './funzioni/admin/antivoip.js'
 import store from './lib/store.js'
-import fs from 'fs'
+import fs from 'fs' 
 import { promises as fsAsync } from 'fs'
 import path from 'path'
 import { downloadContentFromMessage } from '@realvare/baileys'
@@ -143,7 +144,7 @@ async function saveDatabase() {
 
 function loadActivityDb() {
     if (!_activityDbPath) {
-        _activityDbPath = path.resolve('./media/attivita.json')
+        _activityDbPath = path.resolve('./data/attivita.json')
     }
     if (_activityDb !== null) return
     try {
@@ -253,6 +254,17 @@ export function registerAutoAccept(conn) {
     conn.ev.on('group-participants.update', ({ id }) => {
         if (id?.endsWith('@g.us')) knownGroups.add(id)
     })
+
+    if (!global._onDemandHistoryMap) global._onDemandHistoryMap = new Map()
+    conn.ev.on('messaging-history.set', ({ messages, syncType, peerDataRequestSessionId }) => {
+        if (syncType !== 'ON_DEMAND' && syncType !== 3) return
+        const cb = global._onDemandHistoryMap.get(peerDataRequestSessionId)
+        if (cb) {
+            global._onDemandHistoryMap.delete(peerDataRequestSessionId)
+            cb(messages || [])
+        }
+    })
+
     const checkPending = async () => {
         if (knownGroups.size === 0) return
         for (const jid of knownGroups) {
@@ -378,82 +390,110 @@ export default async function handler(conn, chatUpdate) {
         const botId = decodeJid(conn.user.id)
         let sender = decodeJid(m.sender)
         m.botId = botId
-        let isAdmin = false, isBotAdmin = false, isRealAdmin = false
+        
+        let isAdmin = undefined
+        let isBotAdmin = undefined
+        let isRealAdmin = undefined
         let participants = [], groupAdmins = []
+        
         if (isGroup) {
             let groupMetadata = conn.chats?.[jid]?.metadata
-            let needsFetch = false
-            if (!groupMetadata || !groupMetadata.participants || groupMetadata.participants.length === 0) {
-                needsFetch = true
-            } else {
-                const hasStaleLid = groupMetadata.participants.some(p => p.id?.includes('@lid') && !p.jid)
-                if (hasStaleLid) needsFetch = true
-            }
+            let fetchFailed = false
 
-            if (needsFetch) {
+            if (!groupMetadata || !groupMetadata.participants || groupMetadata.participants.length === 0) {
                 try {
                     groupMetadata = await conn.groupMetadata(jid)
-                    if (conn.chats[jid]) conn.chats[jid].metadata = groupMetadata
-                } catch (e) {
-                    groupMetadata = groupMetadata || { participants: [] }
-                }
-            }
-
-            participants = groupMetadata.participants || []
-            m.groupName = groupMetadata.subject || jid
-
-            let lidToJidMap = {}
-            participants.forEach(p => {
-                const pId = p.id || ''
-                let rLid = p.lid ? p.lid.split('@')[0] : (pId.includes('@lid') ? pId.split('@')[0] : null)
-                let rJid = p.jid ? p.jid.split('@')[0].split(':')[0] : (pId.includes('@s.whatsapp.net') ? pId.split('@')[0].split(':')[0] : null)
-                if (rLid && rJid) lidToJidMap[rLid] = rJid
-            })
-
-            let rawSender = sender.split('@')[0]
-            if (lidToJidMap[rawSender]) {
-                sender = lidToJidMap[rawSender] + '@s.whatsapp.net'
-            }
-
-            if (m.text) {
-                Object.keys(lidToJidMap).forEach(lid => {
-                    const regex = new RegExp(`@${lid}`, 'g')
-                    if (regex.test(m.text)) {
-                        m.text = m.text.replace(regex, `@${lidToJidMap[lid]}`)
+                    if (conn.chats?.[jid]) {
+                        conn.chats[jid].metadata = groupMetadata
                     }
-                })
-            }
-
-            if (m.mentionedJid && Array.isArray(m.mentionedJid)) {
-                m.mentionedJid = m.mentionedJid.map(tag => {
-                    let rawTag = tag.split('@')[0]
-                    return lidToJidMap[rawTag] ? lidToJidMap[rawTag] + '@s.whatsapp.net' : tag
-                })
-            }
-
-            if (m.quoted && m.quoted.sender) {
-                let qRaw = m.quoted.sender.split('@')[0]
-                if (lidToJidMap[qRaw]) {
-                    m.quoted.sender = lidToJidMap[qRaw] + '@s.whatsapp.net'
+                } catch (e) {
+                    fetchFailed = true
+                    groupMetadata = conn.chats?.[jid]?.metadata || null
+                }
+            } else {
+                const hasStaleLid = groupMetadata.participants.some(p => p.id?.includes('@lid') && !p.jid)
+                if (hasStaleLid) {
+                    try {
+                        groupMetadata = await conn.groupMetadata(jid)
+                        if (conn.chats?.[jid]) {
+                            conn.chats[jid].metadata = groupMetadata
+                        }
+                    } catch (e) {
+                        fetchFailed = true
+                        groupMetadata = conn.chats?.[jid]?.metadata || null
+                    }
                 }
             }
 
-            const checkAdmin = (targetJid) => {
-                if (!targetJid) return false
-                let dec = decodeJid(targetJid)
-                let p = participants.find(part =>
-                    (part.id && decodeJid(part.id) === dec) ||
-                    (part.jid && decodeJid(part.jid) === dec) ||
-                    (part.lid && decodeJid(part.lid) === dec)
-                )
-                return p ? (p.admin === 'admin' || p.admin === 'superadmin') : false
-            }
+            if (groupMetadata && groupMetadata.participants) {
+                participants = groupMetadata.participants || []
+                m.groupName = groupMetadata.subject || jid
 
-            const { dynamicOwners: dyn } = getOwnerJids()
-            isRealAdmin = checkAdmin(sender) || checkAdmin(m.sender)
-            isBotAdmin = checkAdmin(botId) || (conn.user.lid && checkAdmin(conn.user.lid))
-            isAdmin = isRealAdmin || isOwnerJid(sender, dyn)
-            groupAdmins = participants.filter(p => p.admin === 'admin' || p.admin === 'superadmin')
+                let lidToJidMap = {}
+                participants.forEach(p => {
+                    const pId = p.id || ''
+                    let rLid = p.lid ? p.lid.split('@')[0] : (pId.includes('@lid') ? pId.split('@')[0] : null)
+                    let rJid = p.jid ? p.jid.split('@')[0].split(':')[0] : (pId.includes('@s.whatsapp.net') ? pId.split('@')[0].split(':')[0] : null)
+                    if (rLid && rJid) lidToJidMap[rLid] = rJid
+                })
+
+                let rawSender = sender.split('@')[0]
+                if (lidToJidMap[rawSender]) {
+                    sender = lidToJidMap[rawSender] + '@s.whatsapp.net'
+                }
+
+                if (m.text) {
+                    Object.keys(lidToJidMap).forEach(lid => {
+                        const regex = new RegExp(`@${lid}`, 'g')
+                        if (regex.test(m.text)) {
+                            m.text = m.text.replace(regex, `@${lidToJidMap[lid]}`)
+                        }
+                    })
+                }
+
+                if (m.mentionedJid && Array.isArray(m.mentionedJid)) {
+                    m.mentionedJid = m.mentionedJid.map(tag => {
+                        let rawTag = tag.split('@')[0]
+                        return lidToJidMap[rawTag] ? lidToJidMap[rawTag] + '@s.whatsapp.net' : tag
+                    })
+                }
+
+                if (m.quoted && m.quoted.sender) {
+                    let qRaw = m.quoted.sender.split('@')[0]
+                    if (lidToJidMap[qRaw]) {
+                        m.quoted.sender = lidToJidMap[qRaw] + '@s.whatsapp.net'
+                    }
+                }
+
+                const checkAdmin = (targetJid) => {
+                    if (!targetJid) return false
+                    let dec = decodeJid(targetJid)
+                    let p = participants.find(part =>
+                        (part.id && decodeJid(part.id) === dec) ||
+                        (part.jid && decodeJid(part.jid) === dec) ||
+                        (part.lid && decodeJid(part.lid) === dec)
+                    )
+                    return p ? (p.admin === 'admin' || p.admin === 'superadmin') : false
+                }
+
+                const { dynamicOwners: dyn } = getOwnerJids()
+                isRealAdmin = checkAdmin(sender) || checkAdmin(m.sender)
+                isBotAdmin = checkAdmin(botId) || (conn.user.lid && checkAdmin(conn.user.lid))
+                isAdmin = isRealAdmin || isOwnerJid(sender, dyn)
+                groupAdmins = participants.filter(p => p.admin === 'admin' || p.admin === 'superadmin')
+            } else if (fetchFailed) {
+                isAdmin = undefined
+                isBotAdmin = undefined
+                isRealAdmin = false
+                participants = []
+                groupAdmins = []
+            } else {
+                isAdmin = false
+                isBotAdmin = false
+                isRealAdmin = false
+                participants = []
+                groupAdmins = []
+            }
         }
 
         m.senderJid = sender
@@ -485,15 +525,33 @@ export default async function handler(conn, chatUpdate) {
 
             await bestemmiometro(m, { conn }).catch(e => console.error(e))
 
-            if (await antilink(m, { conn, isAdmin, isBotAdmin, users: global.db.data.users })) return
-            antiwa(m, { conn, isAdmin, isBotAdmin }).catch(() => {})
-            if (global.db.data.groups[jid].antimedia) {
-                if (await antimedia(m, { conn, isAdmin, isBotAdmin })) return
+            if (await antivoip(m, { conn, isAdmin, isBotAdmin, isOwner, isMod, isGroup })) {
+                console.log(chalk.yellow(`[🔒] Gruppo: ${jid} | Sender: ${sender} | Motivo: antivoip attivo`))
+                return
             }
-            if (await soloadmin(m, { isAdmin, isOwner, isMod }) === false) return
+
+            if (await antilink(m, { conn, isAdmin, isBotAdmin, users: global.db.data.users, isGroup })) {
+                console.log(chalk.yellow(`[🔒] Gruppo: ${jid} | Sender: ${sender} | Motivo: antilink attivo`))
+                return
+            }
+            
+            antiwa(m, { conn, isAdmin, isBotAdmin }).catch(() => {})
+            
+            if (global.db.data.groups[jid].antimedia) {
+                if (await antimedia(m, { conn, isAdmin, isBotAdmin, isGroup })) {
+                    console.log(chalk.yellow(`[🔒] Gruppo: ${jid} | Sender: ${sender} | Motivo: antimedia attivo`))
+                    return
+                }
+            }
+            
+            if (await soloadmin(m, { isAdmin, isOwner, isMod, isGroup }) === false) {
+                console.log(chalk.yellow(`[🔒] Gruppo: ${jid} | Sender: ${sender} | Motivo: soloadmin attivo`))
+                return
+            }
         }
 
         await print(m, conn)
+
         if (m.key.fromMe) return
         if (!isGroup && !isOwner) return
         await antiPrivato.call(conn, m, { isOwner })
@@ -506,6 +564,22 @@ export default async function handler(conn, chatUpdate) {
                 if (await plugin.before(m, { conn, isOwner, isAdmin, isBotAdmin, participants, groupAdmins, isGroup }) === false) return
             }
         }
+
+        if (m.message?.reactionMessage) {
+            const emoji = m.message.reactionMessage.text
+            for (let name in global.plugins) {
+                const plugin = global.plugins[name]
+                if (plugin && typeof plugin.reaction === 'function') {
+                    try {
+                        await plugin.reaction(m, { conn, emoji, isOwner, isAdmin, isBotAdmin, isGroup, participants, groupAdmins })
+                    } catch (e) {
+                        console.error(chalk.yellow('[Reaction Plugin Error]:'), name, e.message)
+                    }
+                }
+            }
+            return
+        }
+
         const messageText = m.text || ''
         let usedPrefix = ''
         const _prefix = global.prefix

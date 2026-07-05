@@ -1,7 +1,7 @@
 import axios from 'axios'
 import fs from 'fs'
 
-const dbPath = './media/lastfm.json'
+const dbPath = './data/lastfm.json'
 
 let handler = async (m, { conn }) => {
     const db = fs.existsSync(dbPath) ? JSON.parse(fs.readFileSync(dbPath, 'utf-8')) : {}

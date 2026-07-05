@@ -1,22 +1,6 @@
-import { exec } from 'child_process'
-import { promisify } from 'util'
 import search from 'youtube-search-api'
-import { unlinkSync, readFileSync, existsSync, readdirSync, mkdirSync } from 'fs'
-import path from 'path'
-
-const execPromise = promisify(exec)
 
 let handler = async (m, { conn, command, args, usedPrefix }) => {
-    const tmpDir = path.resolve('./tmp')
-    if (!existsSync(tmpDir)) mkdirSync(tmpDir, { recursive: true })
-
-    const cookiePath = path.resolve('./cookies.txt')
-    
-    if (!existsSync(cookiePath)) {
-        return m.reply('❌ Il file `cookies.txt` non è stato trovato nella directory principale.')
-    }
-
-    const cookieFlag = `--cookies "${cookiePath}"`
 
     if (command === 'play' && !args.length) {
         return m.reply(`🏮 Uso: \`${usedPrefix}play [titolo]\``)
@@ -25,40 +9,40 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
     if (args[0] === 'audio' || args[0] === 'video') {
         let isAudio = args[0] === 'audio'
         let url = args[1]
+        
         if (!url || !url.includes('youtu')) return m.reply('🏮 Link non valido.')
 
-        await m.reply(`⏳ Scaricando ${isAudio ? 'audio' : 'video'}...`)
-        let baseName = `${Date.now()}`
-        let cmd = [
-            'yt-dlp',
-            cookieFlag,
-            '--js-runtime node',
-            '--force-ipv4',
-            '--no-warnings',
-            '--no-check-certificate',
-            isAudio ? '-f "ba/b" --extract-audio --audio-format mp3' : '-S "vcodec:h264,res:720,acodec:m4a" --merge-output-format mp4',
-            `-o "${tmpDir}/${baseName}.%(ext)s"`,
-            `"${url}"`
-        ].join(' ')
+        let videoId = ''
+        if (url.includes('v=')) {
+            videoId = url.split('v=')[1]?.split('&')[0]
+        } else if (url.includes('youtu.be/')) {
+            videoId = url.split('youtu.be/')[1]?.split('?')[0]
+        }
+
+        if (!videoId) return m.reply('❌ Impossibile estrarre l\'ID del video.')
+
+        await m.reply(`_⏳ Sto scaricando il ${isAudio ? 'audio' : 'video'}..._`)
+
+        const endpoint = isAudio 
+            ? `http://api.giusebot.xyz:3000/youtube/mp3?id=${videoId}`
+            : `http://api.giusebot.xyz:3000/youtube/mp4?id=${videoId}`
 
         try {
-            await execPromise(cmd)
-            let files = readdirSync(tmpDir)
-            let found = files.find(f => f.startsWith(baseName) && !f.endsWith('.txt'))
-            if (!found) throw new Error('File non generato')
+            const response = await fetch(endpoint)
             
-            let finalPath = path.join(tmpDir, found)
-            let data = readFileSync(finalPath)
+            if (!response.ok) throw new Error(`Errore API: ${response.status}`)
             
+            const arrayBuffer = await response.arrayBuffer()
+            const buffer = Buffer.from(arrayBuffer)
+
             if (isAudio) {
-                await conn.sendMessage(m.chat, { audio: data, mimetype: 'audio/mpeg', fileName: `audio.mp3` }, { quoted: m })
+                await conn.sendMessage(m.chat, { audio: buffer, mimetype: 'audio/mpeg', fileName: `audio.mp3` }, { quoted: m })
             } else {
-                await conn.sendMessage(m.chat, { video: data, mimetype: 'video/mp4', caption: '> 444 bot' }, { quoted: m })
+                await conn.sendMessage(m.chat, { video: buffer, mimetype: 'video/mp4', caption: '> 444 bot' }, { quoted: m })
             }
-            unlinkSync(finalPath)
         } catch (e) {
             console.error(e)
-            m.reply(`❌ Errore durante il download.`)
+            m.reply(`❌ Errore durante il download dall'API.`);
         }
         return
     }
@@ -72,7 +56,7 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
     let thumb = v.thumbnail?.thumbnails?.[0]?.url || ''
     if (thumb.startsWith('//')) thumb = 'https:' + thumb
 
-    let caption = `╭┈➤ 『 🎵 』 *444TUBE*\n┆  『 📌 』 \`titolo\` ─ ${v.title}\n╰┈➤ 『 📦 』 \`444 bot\``
+    let caption = `╭┈➤ 『 🎵 』 *444TUBE*\n┆   『 📌 』 \`titolo\` ─ ${v.title}\n╰┈➤ 『 📦 』 \`444 bot\``
 
     const buttons = [
         { buttonId: `${usedPrefix}play audio ${videoUrl}`, buttonText: { displayText: '🎵 AUDIO' }, type: 1 },

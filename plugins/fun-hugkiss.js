@@ -20,10 +20,10 @@ let handler = async (m, { conn, command, usedPrefix, text }) => {
 
     const database = {
         bacia: [
-            './media/gifs/kiss1.mp4'
+            './data/gifs/kiss1.mp4'
         ],
         abbraccia: [
-            './media/gifs/hug1.mp4'
+            './data/gifs/hug1.mp4'
         ]
     }
 

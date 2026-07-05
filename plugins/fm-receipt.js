@@ -1,12 +1,12 @@
 import axios from 'axios'
 import fs from 'fs'
 
-const dbPath = './media/lastfm.json'
+const dbPath = './data/lastfm.json'
 
 const buildReceiptHtml = (data, user, type, totalScrobbles) => {
     const date = new Date().toLocaleString('it-IT', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })
 
-    return `<!DOCTYPE html>
+    return <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -14,45 +14,45 @@ const buildReceiptHtml = (data, user, type, totalScrobbles) => {
 <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { 
-        width: 1080px; height: 1440px; background: #e0e0e0; margin: 0; padding: 0; 
+        width: ; height: ; background: #e0e0e0; margin: 0; padding: 0; 
         display: flex; justify-content: center; align-items: center;
         font-family: 'DM Sans', sans-serif;
     }
     .paper {
-        width: 820px; background: #fff; padding: 60px 50px;
-        position: relative; box-shadow: 0 40px 80px rgba(0,0,0,0.3);
+        width: ; background: #fff; padding: 60px 50px;
+        position: relative; box-shadow: 0   rgba(0,0,0,0.3);
         color: #222;
     }
     .paper::before, .paper::after {
-        content: ""; position: absolute; top: 0; bottom: 0; width: 35px;
+        content: ""; position: absolute; top: 0; bottom: 0; width: ;
         background-image: radial-gradient(circle, #e0e0e0 40%, transparent 45%);
-        background-size: 35px 50px; z-index: 2;
+        background-size:  ; z-index: 2;
     }
-    .paper::before { left: 8px; }
-    .paper::after { right: 8px; }
+    .paper::before { left: ; }
+    .paper::after { right: ; }
 
     .rip {
-        position: absolute; left: 0; width: 100%; height: 25px;
-        background: linear-gradient(-45deg, #e0e0e0 12px, transparent 0), linear-gradient(45deg, #e0e0e0 12px, transparent 0);
-        background-size: 24px 24px;
+        position: absolute; left: 0; width: 100%; height: ;
+        background: linear-gradient(-, #e0e0e0 12px, transparent 0), linear-gradient(45deg, #e0e0e0 12px, transparent 0);
+        background-size:  ;
     }
-    .rip-top { top: -1px; transform: rotate(180deg); }
-    .rip-bottom { bottom: -1px; }
+    .rip-top { top: -; transform: rotate(); }
+    .rip-bottom { bottom: -; }
 
-    .header { text-align: center; border-bottom: 3px dashed #444; padding-bottom: 30px; margin-bottom: 30px; }
-    .logo { font-family: 'Syne', sans-serif; font-size: 75px; font-weight: 900; margin: 0; letter-spacing: 8px; }
+    .header { text-align: center; border-bottom:  dashed #444; padding-bottom: 30px; margin-bottom: 30px; }
+    .logo { font-family: 'Syne', sans-serif; font-size: ; font-weight: 900; margin: 0; letter-spacing: ; }
     
-    .item-table { width: 100%; border-collapse: collapse; margin: 30px 0; }
-    .item-table th { font-family: 'Syne', sans-serif; border-bottom: 2px solid #444; padding: 12px 0; text-align: left; font-size: 24px; font-weight: 800; }
-    .item-row td { padding: 15px 0; font-size: 22px; text-transform: uppercase; font-weight: 500; }
-    .qty { width: 60px; color: #666; font-family: 'Syne', sans-serif; }
+    .item-table { width: 100%; border-collapse: collapse; margin:  0; }
+    .item-table th { font-family: 'Syne', sans-serif; border-bottom:  solid #444; padding: 12px 0; text-align: left; font-size: 24px; font-weight: 800; }
+    .item-row td { padding:  0; font-size: ; text-transform: uppercase; font-weight: 500; }
+    .qty { width: ; color: #666; font-family: 'Syne', sans-serif; }
     .price { text-align: right; font-weight: 700; font-family: 'Syne', sans-serif; }
 
-    .divider { border-top: 3px dashed #444; margin: 30px 0; }
-    .total-line { display: flex; justify-content: space-between; font-family: 'Syne', sans-serif; font-size: 40px; font-weight: 900; padding: 15px 0; }
+    .divider { border-top:  dashed #444; margin: 30px 0; }
+    .total-line { display: flex; justify-content: space-between; font-family: 'Syne', sans-serif; font-size: ; font-weight: 900; padding:  0; }
     
-    .footer { text-align: center; margin-top: 40px; font-size: 20px; color: #444; }
-    .barcode { font-size: 70px; margin-top: 20px; letter-spacing: 12px; opacity: 0.8; }
+    .footer { text-align: center; margin-top: ; font-size: ; color: #444; }
+    .barcode { font-size: ; margin-top: ; letter-spacing: ; opacity: 0.8; }
 </style>
 </head>
 <body>
@@ -61,12 +61,12 @@ const buildReceiptHtml = (data, user, type, totalScrobbles) => {
         <div class="header">
             <div class="logo">444.FM</div>
             <div style="margin-top: 15px; font-size: 22px; font-weight: 500;">ORDER #${Math.random().toString(36).substr(2, 9).toUpperCase()}</div>
-            <div style="font-size: 22px;">UTENTE: @${user}</div>
-            <div style="font-size: 22px;">${date}</div>
+            <div style="font-size: 22px;">UTENTE: @{user}</div>
+            <div style="font-size: 22px;">{date}</div>
         </div>
 
         <div style="text-align: center; font-family: 'Syne', sans-serif; font-weight: 900; font-size: 30px; margin-bottom: 15px; text-transform: uppercase;">
-            TOP ${type} (ALL TIME)
+            TOP {type} (ALL TIME)
         </div>
 
         <table class="item-table">
@@ -78,19 +78,19 @@ const buildReceiptHtml = (data, user, type, totalScrobbles) => {
                 </tr>
             </thead>
             <tbody>
-                ${data.map((item, i) => `
+                {data.map((item, i) => 
                 <tr class="item-row">
-                    <td class="qty">${i + 1}</td>
-                    <td>${item.name.substring(0, 20)}${item.name.length > 20 ? '..' : ''}</td>
-                    <td class="price">${Number(item.playcount).toLocaleString('it-IT')}</td>
-                </tr>`).join('')}
+                    <td class="qty">{i + 1}</td>
+                    <td>{item.name.substring(0, 20)}{item.name.length > 20 ? '..' : ''}</td>
+                    <td class="price">{Number(item.playcount).toLocaleString('it-IT')}</td>
+                </tr>).join('')}
             </tbody>
         </table>
 
         <div class="divider"></div>
         <div class="total-line">
             <span>TOTAL AMOUNT:</span>
-            <span>${totalScrobbles.toLocaleString('it-IT')}</span>
+            <span>{totalScrobbles.toLocaleString('it-IT')}</span>
         </div>
         <div class="divider"></div>
 
@@ -101,7 +101,7 @@ const buildReceiptHtml = (data, user, type, totalScrobbles) => {
         <div class="rip rip-bottom"></div>
     </div>
 </body>
-</html>`
+</html>
 }
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {

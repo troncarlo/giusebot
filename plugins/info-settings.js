@@ -2,10 +2,10 @@ import fs from 'fs'
 import { join } from 'path'
 
 const paths = {
-    bio: './media/descrizioni.json',
-    compleanno: './media/compleanni.json',
-    insta: './media/instagram.json',
-    genere: './media/genere.json'
+    bio: './data/descrizioni.json',
+    compleanno: './data/compleanni.json',
+    insta: './data/instagram.json',
+    genere: './data/genere.json'
 }
 
 const loadDb = (path) => {

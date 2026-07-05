@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-const plPath = './media/playlists.json'
+const plPath = './data/playlists.json'
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!fs.existsSync(plPath)) fs.writeFileSync(plPath, JSON.stringify({}))

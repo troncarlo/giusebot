@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-const plPath = './media/playlists.json'
+const plPath = './data/playlists.json'
 
 const formatTime = (ms) => {
     const mins = Math.floor(ms / 60000), secs = ((ms % 60000) / 1000).toFixed(0)

@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 
 let handler = async (m, { conn, usedPrefix }) => {
-    const dbPath = path.resolve('./media/attivita.json')
+    const dbPath = path.resolve('./data/attivita.json')
     if (!fs.existsSync(dbPath)) return m.reply('🏮 Nessun dato di attività registrato.')
 
     const db = JSON.parse(fs.readFileSync(dbPath, 'utf-8'))

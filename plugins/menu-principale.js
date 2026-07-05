@@ -15,11 +15,11 @@ function detectDevice(msgID) {
 
 function getRandomMenus() {
   const allMenus = [
-    { title: "🛡️ Funzioni", command: ".menufunzioni" },
-    { title: "🛡️ Admin", command: ".menuadmin" },
-    { title: "🎮 Giochi", command: ".menu-giochi" },
-    { title: "🔰 Moderatori", command: ".menumod" },
-    { title: "🎶 Menu FM", command: ".menufm" }
+    { title: "🛡️ Funzioni", command: "menufunzioni" },
+    { title: "🛡️ Admin", command: "menuadmin" },
+    { title: "🎮 Giochi", command: "menu-giochi" },
+    { title: "🔰 Moderatori", command: "menumod" },
+    { title: "🎶 Menu FM", command: "menufm" }
   ];
   const shuffled = allMenus.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, 5);

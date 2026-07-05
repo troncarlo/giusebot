@@ -5,18 +5,18 @@ const packageJson = require('../package.json')
 
 const handler = async (m, { conn }) => {
     const start = performance.now()
-    const lattenza = (performance.now() - start).toFixed(3)
+    const lattenza = (performance.now() - start).toFixed(5)
     
     const _uptime = process.uptime() * 1000
     const uptime = formatUptime(_uptime)
     const versione = packageJson.version || '1.0.0'
     const foto = global.immagini[Math.floor(Math.random() * global.immagini.length)]
     
-    const response = `
-  ╭┈  『 🚀 』 ` + "`ping` ─ " + ` *_${lattenza}ms_*
-  ┆  『 🕒 』 ` + "`uptime` ─ " + ` *_${uptime}_*
-  ╰┈➤ 『 📦 』 ` + "`versione` ─ " + ` *_${versione}_*
-  `.trim()
+    const response = 
+  ╭┈  『 🚀 』 ` + "`ping` ─ " + ` *_{lattenza}ms_*
+  ┆  『 🕒 』 ` + "`uptime` ─ " + ` *_{uptime}_*
+  ╰┈➤ 『 📦 』 ` + "`versione` ─ " + ` *_{versione}_*
+  .trim()
 
     let isBusiness = false
     try {

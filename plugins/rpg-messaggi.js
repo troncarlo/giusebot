@@ -1,7 +1,7 @@
 import fs from 'fs'
 
-const transactionPath = './media/transazioni.json'
-const walletPath = './media/wallet.json'
+const transactionPath = './data/transazioni.json'
+const walletPath = './data/wallet.json'
 
 const getWallet = () => {
     if (!fs.existsSync(walletPath)) return {}
@@ -16,7 +16,7 @@ const saveWallet = (data) => {
 
 const saveTransaction = (jid, amount, type) => {
     try {
-        if (!fs.existsSync('./media')) fs.mkdirSync('./media')
+        if (!fs.existsSync('./data')) fs.mkdirSync('./data')
         let logs = fs.existsSync(transactionPath) ? JSON.parse(fs.readFileSync(transactionPath, 'utf-8')) : []
         logs.push({
             jid,

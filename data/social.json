@@ -1,0 +1,122 @@
+{
+  "77787623522@s.whatsapp.net": {
+    "partner": "393513949327@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393517267535@s.whatsapp.net": {
+    "partner": "393520931386@s.whatsapp.net",
+    "children": [
+      "393514370130@s.whatsapp.net"
+    ],
+    "parent": "393930988188@s.whatsapp.net"
+  },
+  "393508602964@s.whatsapp.net": {
+    "partner": null,
+    "children": [],
+    "parent": null
+  },
+  "393934330861@s.whatsapp.net": {
+    "partner": null,
+    "children": [],
+    "parent": null
+  },
+  "393513949327@s.whatsapp.net": {
+    "partner": "77787623522@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393204572728@s.whatsapp.net": {
+    "partner": null,
+    "children": [],
+    "parent": "352691312531@s.whatsapp.net"
+  },
+  "352691312531@s.whatsapp.net": {
+    "partner": null,
+    "children": [
+      "393204572728@s.whatsapp.net"
+    ],
+    "parent": null
+  },
+  "393519781327@s.whatsapp.net": {
+    "partner": "393533074387@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393533074387@s.whatsapp.net": {
+    "partner": "393519781327@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "56949570572@s.whatsapp.net": {
+    "partner": null,
+    "children": [],
+    "parent": "33623333451@s.whatsapp.net"
+  },
+  "33623333451@s.whatsapp.net": {
+    "partner": null,
+    "children": [
+      "56949570572@s.whatsapp.net",
+      "19899314111@s.whatsapp.net"
+    ],
+    "parent": null
+  },
+  "19899314111@s.whatsapp.net": {
+    "partner": null,
+    "children": [],
+    "parent": "33623333451@s.whatsapp.net"
+  },
+  "393520931386@s.whatsapp.net": {
+    "partner": "393517267535@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393514370130@s.whatsapp.net": {
+    "partner": null,
+    "children": [],
+    "parent": "393517267535@s.whatsapp.net"
+  },
+  "393930988188@s.whatsapp.net": {
+    "partner": "393756724507@s.whatsapp.net",
+    "children": [
+      "393517267535@s.whatsapp.net",
+      "393756724507@s.whatsapp.net"
+    ],
+    "parent": null
+  },
+  "393756724507@s.whatsapp.net": {
+    "partner": "393930988188@s.whatsapp.net",
+    "children": [],
+    "parent": "393930988188@s.whatsapp.net"
+  },
+  "393290868107@s.whatsapp.net": {
+    "partner": "393881592168@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393881592168@s.whatsapp.net": {
+    "partner": "393290868107@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393773882697@s.whatsapp.net": {
+    "partner": "393802010519@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393802010519@s.whatsapp.net": {
+    "partner": "393773882697@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393517127684@s.whatsapp.net": {
+    "partner": "393892920357@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  },
+  "393892920357@s.whatsapp.net": {
+    "partner": "393517127684@s.whatsapp.net",
+    "children": [],
+    "parent": null
+  }
+}

@@ -4,8 +4,8 @@ import { join } from 'path'
 import '../config.js'
 
 const BROWSERLESS_KEY = global.APIKeys?.browserless
-const plPath = './media/playlists.json'
-const tmpDir = './media/tmp/playlist'
+const plPath = './data/playlists.json'
+const tmpDir = './data/tmp/playlist'
 
 const formatTime = (ms) => {
     const mins = Math.floor(ms / 60000), secs = ((ms % 60000) / 1000).toFixed(0)

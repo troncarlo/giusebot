@@ -1,8 +1,8 @@
 import axios from 'axios'
 import fs from 'fs'
 
-const walletPath = './media/wallet.json'
-const livelliPath = './media/livelli.json'
+const walletPath = './data/wallet.json'
+const livelliPath = './data/livelli.json'
 const BROWSERLESS_KEY = global.APIKeys?.browserless
 
 const rewards = [
@@ -16,7 +16,7 @@ const rewards = [
 ]
 
 const getDb = (path) => {
-    if (!fs.existsSync('./media')) fs.mkdirSync('./media')
+    if (!fs.existsSync('./data')) fs.mkdirSync('./data')
     if (!fs.existsSync(path)) fs.writeFileSync(path, JSON.stringify({}))
     return JSON.parse(fs.readFileSync(path, 'utf-8'))
 }

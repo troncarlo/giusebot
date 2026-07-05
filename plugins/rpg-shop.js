@@ -1,11 +1,11 @@
 import fs from 'fs'
 
-const walletPath = './media/wallet.json'
-const inventoryPath = './media/inventory.json'
-const bancaPath = './media/banca.json'
+const walletPath = './data/wallet.json'
+const inventoryPath = './data/inventory.json'
+const bancaPath = './data/banca.json'
 
 const getDb = (path) => {
-    if (!fs.existsSync('./media')) fs.mkdirSync('./media')
+    if (!fs.existsSync('./data')) fs.mkdirSync('./data')
     if (!fs.existsSync(path)) fs.writeFileSync(path, JSON.stringify({}))
     return JSON.parse(fs.readFileSync(path, 'utf-8'))
 }

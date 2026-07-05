@@ -7,7 +7,7 @@ handler.before = async function (m, { conn }) {
     if (m.key.fromMe) return 
 
     if (m.text && m.text.toLowerCase().includes('gnu')) {
-        let audioPath = path.join(process.cwd(), 'media', 'gnu.mp3')
+        let audioPath = path.join(process.cwd(), 'media', 'audio', 'gnu.mp3')
         
         if (!fs.existsSync(audioPath)) return
 

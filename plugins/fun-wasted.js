@@ -25,8 +25,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     let fontBase64 = ''
     try {
-        if (fs.existsSync('./media/pricedown.ttf')) {
-            fontBase64 = fs.readFileSync('./media/pricedown.ttf').toString('base64')
+        if (fs.existsSync('./data/pricedown.ttf')) {
+            fontBase64 = fs.readFileSync('./data/pricedown.ttf').toString('base64')
         }
     } catch (e) {
         console.error('Errore nel caricamento del font:', e)

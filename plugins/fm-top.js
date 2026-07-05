@@ -1,8 +1,31 @@
 import axios from 'axios'
 import fs from 'fs'
+import { render } from 'takumi-js'
+import parse from 'html-parse-stringify'
 
-const dbPath = './media/lastfm.json'
+const dbPath = './data/lastfm.json'
 const LASTFM_PLACEHOLDER = '2a96cbd8b46e442fc41c2b86b821562f'
+
+const convertHtmlToNodes = (htmlString) => {
+    const ast = parse.parse(htmlString.trim());
+    const transform = (node) => {
+        if (node.type === 'text') return node.content;
+        const props = { ...node.attrs };
+        if (props.class) {
+            props.tw = props.class;
+            delete props.class;
+        }
+        const children = node.children ? node.children.map(transform) : [];
+        return {
+            type: node.name,
+            props: {
+                ...props,
+                children: children.length === 1 && typeof children[0] === 'string' ? children[0] : children
+            }
+        };
+    };
+    return transform(ast[0]);
+};
 
 const fetchCover = async (item, isAlbum, apiKey) => {
     if (isAlbum) {
@@ -46,250 +69,13 @@ const fetchCover = async (item, isAlbum, apiKey) => {
             if (r?.artworkUrl100) return r.artworkUrl100.replace('100x100bb', '600x600bb')
         } catch {}
     }
-    return null
-}
-
-const buildHtml = (data, covers, isAlbum) => {
-    const fmt = (n) => Number(n).toLocaleString('it-IT')
-    const cover1 = covers[0] || ''
-
-    return `<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-<style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-body {
-    width: 1080px;
-    height: 1440px;
-    overflow: hidden;
-    font-family: 'DM Sans', sans-serif;
-    background: #111114;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-.bg-cover {
-    position: absolute;
-    inset: -80px;
-    ${cover1 ? `background: url('${cover1}') center/cover no-repeat;` : 'background: #111114;'}
-    filter: blur(80px) saturate(140%) brightness(0.22);
-    transform: scale(1.1);
-    z-index: 0;
-}
-
-.bg-vignette {
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(ellipse 120% 60% at 50% 0%, transparent 40%, rgba(10,10,12,0.75) 100%),
-        radial-gradient(ellipse 100% 50% at 50% 100%, rgba(10,10,12,0.9) 0%, transparent 60%);
-    z-index: 0;
-}
-
-.header {
-    position: relative;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    z-index: 10;
-}
-
-.pill {
-    background: rgba(255,255,255,0.07);
-    border: 1px solid rgba(255,255,255,0.13);
-    backdrop-filter: blur(20px);
-    border-radius: 100px;
-    padding: 10px 34px;
-    font-size: 24px;
-    font-weight: 500;
-    color: rgba(255,255,255,0.38);
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-
-h1 {
-    font-family: 'Syne', sans-serif;
-    font-size: 110px;
-    font-weight: 900;
-    color: #f0eee8;
-    letter-spacing: -5px;
-    line-height: 0.88;
-    text-align: center;
-}
-
-.content-wrapper {
-    position: relative;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.podium {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(255,255,255,0.07);
-    backdrop-filter: blur(60px) saturate(160%);
-    border: 1px solid rgba(255,255,255,0.13);
-    position: relative;
-}
-
-.card-1 { width: 376px; height: 900px; border-radius: 80px 80px 0 0; z-index: 3; }
-.card-2 { width: 348px; height: 750px; border-radius: 80px 0 0 0; z-index: 2; margin-right: -1px; }
-.card-3 { width: 348px; height: 600px; border-radius: 0 80px 0 0; z-index: 1; margin-left: -1px; }
-
-.cover-wrap { position: relative; margin-top: -140px; z-index: 5; }
-.card-1 .cover-wrap { margin-top: -180px; }
-
-.cover {
-    display: block;
-    border-radius: 40px;
-    object-fit: cover;
-    border: 4px solid rgba(255,255,255,0.18);
-    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
-}
-.card-1 .cover { width: 280px; height: 280px; }
-.card-2 .cover, .card-3 .cover { width: 220px; height: 220px; }
-
-.badge {
-    position: absolute;
-    bottom: -15px; right: -15px;
-    width: 60px; height: 60px;
-    border-radius: 50%;
-    background: rgba(30,30,34,0.9);
-    border: 2px solid rgba(255,255,255,0.18);
-    display: flex; align-items: center; justify-content: center;
-    font-size: 32px;
-}
-
-.info { padding: 40px 20px 0; text-align: center; }
-.name { font-family: 'Syne', sans-serif; font-weight: 800; color: #f0eee8; line-height: 1.1; }
-.card-1 .name { font-size: 42px; }
-.card-2 .name, .card-3 .name { font-size: 30px; }
-
-.plays {
-    margin-top: 20px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    color: #f0eee8;
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 100px;
-    padding: 10px 30px;
-    font-size: 24px;
-}
-
-.rest {
-    position: absolute;
-    left: 40px;
-    right: 40px;
-    bottom: 0;
-    z-index: 10;
-    background: rgba(15,15,18,0.88);
-    backdrop-filter: blur(50px) saturate(160%);
-    border: 1px solid rgba(255,255,255,0.15);
-    border-bottom: none;
-    border-radius: 60px 60px 0 0;
-    padding: 85px 60px 20px; 
-    box-shadow: 0 -30px 100px rgba(0,0,0,0.9);
-}
-
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 22px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-.row:last-child { border-bottom: none; }
-
-.row-left { display: flex; align-items: center; gap: 30px; }
-.row-num { font-family: 'Syne', sans-serif; font-size: 32px; font-weight: 900; color: rgba(255,255,255,0.2); width: 45px; }
-.row-name { font-family: 'Syne', sans-serif; font-size: 32px; font-weight: 700; color: #f0eee8; }
-.row-plays { font-family: 'DM Sans', sans-serif; font-size: 28px; color: rgba(255,255,255,0.4); }
-
-</style>
-</head>
-<body>
-<div class="bg-cover"></div>
-<div class="bg-vignette"></div>
-
-<div class="header">
-    <div class="pill">7 days · ${isAlbum ? 'albums' : 'artists'}</div>
-    <h1>Weekly Chart</h1>
-</div>
-
-<div class="content-wrapper">
-    <div class="podium">
-        <div class="card card-2">
-            <div class="cover-wrap">
-                <img class="cover" src="${covers[1] || ''}" onerror="this.src='https://placehold.co/600x600/222/555?text=?'">
-                <div class="badge">🥈</div>
-            </div>
-            <div class="info">
-                <div class="name">${data[1].name}</div>
-                <div class="plays">${fmt(data[1].playcount)} plays</div>
-            </div>
-        </div>
-
-        <div class="card card-1">
-            <div class="cover-wrap">
-                <img class="cover" src="${covers[0] || ''}" onerror="this.src='https://placehold.co/600x600/222/555?text=?'">
-                <div class="badge">🥇</div>
-            </div>
-            <div class="info">
-                <div class="name">${data[0].name}</div>
-                <div class="plays">${fmt(data[0].playcount)} plays</div>
-            </div>
-        </div>
-
-        <div class="card card-3">
-            <div class="cover-wrap">
-                <img class="cover" src="${covers[2] || ''}" onerror="this.src='https://placehold.co/600x600/222/555?text=?'">
-                <div class="badge">🥉</div>
-            </div>
-            <div class="info">
-                <div class="name">${data[2].name}</div>
-                <div class="plays">${fmt(data[2].playcount)} plays</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="rest">
-        ${data.slice(3, 5).map((item, i) => `
-        <div class="row">
-            <div class="row-left">
-                <span class="row-num">${i + 4}</span>
-                <div class="row-name">${item.name}</div>
-            </div>
-            <span class="row-plays">${fmt(item.playcount)}</span>
-        </div>`).join('')}
-    </div>
-</div>
-</body>
-</html>`
+    return 'https://placehold.co/600x600/222/555?text=?'
 }
 
 let handler = async (m, { conn, text, usedPrefix }) => {
     const db = fs.existsSync(dbPath) ? JSON.parse(fs.readFileSync(dbPath, 'utf-8')) : {}
     const user = db[m.sender]
     const apiKey = global.APIKeys?.lastfm
-    const browserlessKey = global.APIKeys?.browserless
 
     if (!apiKey) return m.reply('_Configura LastFM API Key._')
     if (!user) return m.reply(`_Registrati prima con ${usedPrefix}fmset_`)
@@ -308,20 +94,81 @@ let handler = async (m, { conn, text, usedPrefix }) => {
         if (!data || data.length < 3) return m.reply('_Dati insufficienti su Last.fm._')
 
         const covers = await Promise.all(data.slice(0, 3).map(item => fetchCover(item, isAlbum, apiKey)))
+        const fmt = (n) => Number(n).toLocaleString('it-IT')
 
-        const html = buildHtml(data, covers, isAlbum)
+        const rowsHtml = data.slice(3, 5).map((item, i) => `
+            <div tw="flex items-center justify-between py-3 border-b border-white/10 w-full">
+                <div tw="flex items-center">
+                    <span tw="font-sans text-xl font-black text-white/20 w-8">${i + 4}</span>
+                    <span tw="font-sans text-base font-bold text-zinc-200 truncate w-[400px]">${item.name}</span>
+                </div>
+                <span tw="font-sans text-sm text-white/40">${fmt(item.playcount)}</span>
+            </div>
+        `).join('')
 
-        const screenshot = await axios.post(
-            `https://chrome.browserless.io/screenshot?token=${browserlessKey}`,
-            {
-                html,
-                viewport: { width: 1080, height: 1440 },
-                options: { type: 'jpeg', quality: 95 }
-            },
-            { responseType: 'arraybuffer' }
-        )
+        const htmlTemplate = `
+            <div tw="w-full h-full flex flex-col justify-between bg-zinc-950 p-10 font-sans relative overflow-hidden" style="width: 1080px; height: 1440px;">
+                
+                <div tw="absolute inset-0 flex">
+                    <img src="${covers[0]}" tw="w-full h-full object-cover opacity-20 blur-3xl scale-110" />
+                </div>
+                <div tw="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/80"></div>
 
-        await conn.sendMessage(m.chat, { image: screenshot.data, ...global.newsletter() }, { quoted: m })
+                <div tw="flex flex-col items-center mt-12 relative">
+                    <div tw="bg-white/10 border border-white/20 px-4 py-1.5 rounded-full mb-4">
+                        <span tw="text-xs font-bold uppercase tracking-widest text-white/50">7 days · ${isAlbum ? 'albums' : 'artists'}</span>
+                    </div>
+                    <span tw="text-6xl font-black text-zinc-100 tracking-tight">Weekly Chart</span>
+                </div>
+
+                <div tw="flex flex-col justify-end flex-1 relative">
+                    
+                    <div tw="flex items-end justify-center mb-10 w-full">
+                        
+                        <div tw="flex flex-col items-center bg-white/5 border border-white/10 rounded-l-3xl p-6 w-[280px] h-[360px] relative mr-[-1px]">
+                            <div tw="relative mt-[-70px] mb-4 flex">
+                                <img src="${covers[1]}" tw="w-36 h-36 rounded-2xl object-cover border-2 border-white/20 shadow-2xl" />
+                                <span tw="absolute bottom-[-10px] right-[-10px] bg-zinc-900 border border-white/20 w-10 h-10 rounded-full flex items-center justify-center text-lg">🥈</span>
+                            </div>
+                            <span tw="text-lg font-black text-zinc-200 text-center truncate w-[230px] mb-2">${data[1].name}</span>
+                            <span tw="text-xs font-bold text-zinc-100 bg-white/10 border border-white/15 px-3 py-1 rounded-full">${fmt(data[1].playcount)} plays</span>
+                        </div>
+
+                        <div tw="flex flex-col items-center bg-white/10 border border-white/20 rounded-t-3xl p-6 w-[320px] h-[420px] relative z-10 shadow-2xl">
+                            <div tw="relative mt-[-90px] mb-5 flex">
+                                <img src="${covers[0]}" tw="w-44 h-44 rounded-2xl object-cover border-2 border-white/30 shadow-2xl" />
+                                <span tw="absolute bottom-[-10px] right-[-10px] bg-zinc-900 border border-white/20 w-12 h-12 rounded-full flex items-center justify-center text-xl">🥇</span>
+                            </div>
+                            <span tw="text-2xl font-black text-zinc-100 text-center truncate w-[270px] mb-3">${data[0].name}</span>
+                            <span tw="text-sm font-bold text-zinc-100 bg-white/15 border border-white/20 px-4 py-1.5 rounded-full">${fmt(data[0].playcount)} plays</span>
+                        </div>
+
+                        <div tw="flex flex-col items-center bg-white/5 border border-white/10 rounded-r-3xl p-6 w-[280px] h-[320px] relative ml-[-1px]">
+                            <div tw="relative mt-[-70px] mb-4 flex">
+                                <img src="${covers[2]}" tw="w-36 h-36 rounded-2xl object-cover border-2 border-white/20 shadow-2xl" />
+                                <span tw="absolute bottom-[-10px] right-[-10px] bg-zinc-900 border border-white/20 w-10 h-10 rounded-full flex items-center justify-center text-lg">🥉</span>
+                            </div>
+                            <span tw="text-lg font-black text-zinc-200 text-center truncate w-[230px] mb-2">${data[2].name}</span>
+                            <span tw="text-xs font-bold text-zinc-100 bg-white/10 border border-white/15 px-3 py-1 rounded-full">${fmt(data[2].playcount)} plays</span>
+                        </div>
+
+                    </div>
+
+                    <div tw="bg-zinc-900/90 border border-white/10 border-b-0 rounded-t-3xl p-8 flex flex-col w-full mx-auto max-w-[880px] shadow-2xl">
+                        ${rowsHtml}
+                    </div>
+
+                </div>
+            </div>
+        `
+
+        const nodeStructure = convertHtmlToNodes(htmlTemplate)
+        const imageBuffer = await render(nodeStructure, { 
+            width: 1080, 
+            height: 1440 
+        })
+
+        await conn.sendMessage(m.chat, { image: imageBuffer, ...global.newsletter() }, { quoted: m })
     } catch (e) {
         console.error(e)
         m.reply('_Errore nel rendering._')

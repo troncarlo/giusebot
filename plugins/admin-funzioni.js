@@ -13,16 +13,17 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin }) =
     let botSettings = global.db.data.settings[botId]
 
     const adminFeatures = [
-        { key: 'benvenuto',     name: 'benvenuto'     },
-        { key: 'rileva',        name: 'rileva'         },
-        { key: 'soloadmin',     name: 'soloadmin'      },
-        { key: 'antiwhatsapp',  name: 'antiwhatsapp'   },
-        { key: 'antitg',        name: 'antitg'         },
-        { key: 'antinsta',      name: 'antinsta'       },
-        { key: 'antilink',      name: 'antilink'       },
-        { key: 'antilinkuni',   name: 'antilinkuni'    },
-        { key: 'antinuke',      name: 'antinuke'       },
-        { key: 'antimedia',     name: 'antimedia'      },
+        { key: 'benvenuto',      name: 'benvenuto'     },
+        { key: 'rileva',         name: 'rileva'         },
+        { key: 'soloadmin',      name: 'soloadmin'      },
+        { key: 'antiwhatsapp',   name: 'antiwhatsapp'   },
+        { key: 'antitg',         name: 'antitg'         },
+        { key: 'antinsta',       name: 'antinsta'       },
+        { key: 'antilink',       name: 'antilink'       },
+        { key: 'antilinkuni',    name: 'antilinkuni'    },
+        { key: 'antinuke',       name: 'antinuke'       },
+        { key: 'antimedia',      name: 'antimedia'      },
+        { key: 'antivoip',       name: 'antivoip'       },
         { key: 'bestemmiometro', name: 'bestemmiometro' }
     ]
 

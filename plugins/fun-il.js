@@ -7,12 +7,11 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     await conn.sendPresenceUpdate('composing', m.chat)
 
-    // Calcolo dinamico dello stretch: se il testo è lungo, lo comprimiamo/stretchiamo per farlo stare in larghezza
     const textLength = text.length
     let scaleX = 1
     if (textLength > 6) {
-        scaleX = (6 / textLength) * 1.5 // Fattore di scala per forzare la larghezza
-        if (scaleX > 1.2) scaleX = 1.2 // Limite massimo di stretch
+        scaleX = (6 / textLength) * 1.5 
+        if (scaleX > 1.2) scaleX = 1.2
     }
 
     const html = `
@@ -69,7 +68,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
             options: { type: 'webp', quality: 100 }
         }, { responseType: 'arraybuffer' })
 
-        await conn.sendMessage(m.chat, { 
+        await conn.sendMessage(m.chat, {   
             sticker: Buffer.from(response.data) 
         }, { quoted: m })
 
