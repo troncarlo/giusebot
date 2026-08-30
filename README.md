@@ -1,10 +1,10 @@
-# 🤖 444 bot .✦ ݁˖
+# 🤖 giusebot .✦ ݁˖
 
 ⤷ ゛Bot WhatsApp basato su [@realvare/baileys](https://npmjs.com/package/@realvare/baileys). Base interamente fatta da zero, rapido e facilmente configurabile! Funziona sia su WhatsApp normale che WhatsApp Business (mod incluse) ⋆˚꩜｡
 
 ![Node](https://img.shields.io/badge/Node.js-18%2B-green?style=flat-square&logo=node.js)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
-![Version](https://img.shields.io/badge/version-1.7.2-purple?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.8.3-purple?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Linux-lightgrey?style=flat-square)
 ---
 
@@ -22,11 +22,12 @@ Dopo l'installazione, modifica `config.js` e inserisci le tue chiavi in `global.
 | Chiave | Servizio | Usato per |
 |--------|----------|-----------|
 | `openrouter` | [openrouter.ai](https://openrouter.ai) | AI Rispondi (modello trinity-mini) |
-| `browserless` | [browserless.io](https://browserless.io) | N/A |
+| `browserless` | [browserless.io](https://browserless.io) | Generazioni delle immagini interattive |
 | `removebg` | [remove.bg](https://remove.bg) | Rimozione sfondo immagini |
 | `lastfm` | [last.fm](https://www.last.fm/api) | Comando `.cur` / nowplaying |
 | `ocr` | [ocr.space](https://ocr.space/ocrapi) | Lettura QR code |
 | `gemini` | Google Gemini | AI opzionale |
+| e altro ancora...|
 
 ---
 
@@ -54,7 +55,7 @@ pip install setuptools
 export GYP_DEFINES="android_ndk_path=''"
 ```
 ```bash
-cd ~ && git clone https://github.com/troncarlo/444-bot && cd 444-bot
+cd ~ && git clone https://github.com/troncarlo/giusebot && cd giusebot
 ```
 ```bash
 npm install --global yarn && yarn install
@@ -82,7 +83,7 @@ sudo apt install -y nodejs
 sudo apt install -y git ffmpeg imagemagick python3 python3-pip build-essential
 ```
 ```bash
-git clone https://github.com/troncarlo/444-bot && cd 444-bot
+git clone https://github.com/troncarlo/giusebot && cd giusebot
 ```
 ```bash
 npm install
@@ -123,14 +124,16 @@ npm start
 ## 📁 Struttura del progetto
 ```
 annoyed./
-├── index.js          # Entry point
+├── index.js           # Entry point
 ├── handler.js         # Gestore messaggi principale
 ├── config.js          # Configurazione (generato al primo avvio)
 ├── database.json      # Database locale (generato automaticamente)
 ├── plugins/           # Comandi del bot
 ├── funzioni/          # Moduli interni (antilink, welcome, ecc.)
 ├── lib/               # Librerie (simple.js, store, converter, ecc.)
-└── media/             # File di dati (banned, mutati, playlist, ecc.)
+├── data/              # Dati di salvataggio (messaggi, saldo ecc.)
+└── media/             # .webp per alcuni comandi interattivi
+
 ```
 
 ---
@@ -143,7 +146,7 @@ annoyed./
 ## 👥 Contributori
 
 <p align="center">
-  <a href="https://github.com/troncarlo/444-bot/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=troncarlo/444-bot"/>
+  <a href="https://github.com/troncarlo/giusebot/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=troncarlo/giusebot"/>
   </a>
 </p>
