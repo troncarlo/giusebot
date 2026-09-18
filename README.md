@@ -150,3 +150,10 @@ annoyed./
     <img src="https://contrib.rocks/image?repo=troncarlo/giusebot"/>
   </a>
 </p>
+
+
+<p align="center">
+  <a href="https://star-history.com/#troncarlo/giusebot&Date">
+    <img src="https://star-history.com/#troncarlo/giusebot&Date"/>
+  </a>
+</p>
